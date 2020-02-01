@@ -53,6 +53,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [pve-devel](https://www.mail-archive.com/pve-devel@pve.proxmox.com/index.html) Mailing List Developer Proxmox VE
 - [pve-user](https://www.mail-archive.com/pve-user@pve.proxmox.com/) Mailing List User Proxmox VE
 - [Git Developer](https://git.proxmox.com/?o=age) Git Developer Proxmox VE
+- [Bugzilla](https://bugzilla.proxmox.com/) Bugzilla Proxmox VE
 
 
 ## Tools
