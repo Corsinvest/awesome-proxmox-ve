@@ -15,6 +15,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 ## Table of Contents
 
 - [Api](#api)
+- [Blog](#blog)
 - [Documentation](#documentation)
 - [Site](#site)
 - [Tools](#tools)
@@ -36,17 +37,19 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [pve2-api-java](https://github.com/Elbandi/pve2-api-java) Proxmox 2.0 API Client for Java
 - [Net-Proxmox-VE-0.006](https://metacpan.org/release/DJZORT/Net-Proxmox-VE-0.006) Pure perl API for Proxmox virtualization
 
+## Blog
+
+- [pveCLI](https://pvecli.xuan2host.com/) article Proxmox VE
+
 ## Documentation
 
 - [Official Wiki](https://pve.proxmox.com) Index Wiki
 - [Official Docs](https://pve.proxmox.com/pve-docs/) Index official documentation
 
-
 ## Site
 
 - [cv4pve-tools](https://www.cv4pve-tools.com) cv4pve-tools Utility for Proxmox VE
 - [cv4pve-metrics](https://metrics.cv4pve-tools.com) Metrics cloud for Proxmox VE
-- [pveCLI](https://pvecli.xuan2host.com/) article Proxmox VE
 
 ## Tools
 
