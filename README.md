@@ -48,12 +48,13 @@ The [Proxmox VE](https://pve.proxmox.com)
 
 ## Site
 
-- [cv4pve-tools](https://www.cv4pve-tools.com) cv4pve-tools Utility for Proxmox VE
-- [cv4pve-metrics](https://metrics.cv4pve-tools.com) Metrics cloud for Proxmox VE
-- [pve-devel](https://www.mail-archive.com/pve-devel@pve.proxmox.com/index.html) Mailing List Developer Proxmox VE
-- [pve-user](https://www.mail-archive.com/pve-user@pve.proxmox.com/) Mailing List User Proxmox VE
+- [Ufficial Forum](https://forum.proxmox.com/) Ufficial Forum
 - [Git Developer](https://git.proxmox.com/?o=age) Git Developer Proxmox VE
 - [Bugzilla](https://bugzilla.proxmox.com/) Bugzilla Proxmox VE
+- [pve-devel](https://www.mail-archive.com/pve-devel@pve.proxmox.com/index.html) Mailing List Developer Proxmox VE
+- [pve-user](https://www.mail-archive.com/pve-user@pve.proxmox.com/) Mailing List User Proxmox VE
+- [cv4pve-tools](https://www.cv4pve-tools.com) cv4pve-tools Utility for Proxmox VE
+- [cv4pve-metrics](https://metrics.cv4pve-tools.com) Metrics cloud for Proxmox VE
 - [Reddit Proxmox](https://www.reddit.com/r/Proxmox/) Reddit
 - [Reddit Proxmox VE](https://www.reddit.com/r/ProxmoxVE/) Reddit
 
