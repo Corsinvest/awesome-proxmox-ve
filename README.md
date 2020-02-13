@@ -39,7 +39,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Net-Proxmox-VE-0.006](https://metacpan.org/release/DJZORT/Net-Proxmox-VE-0.006) Pure perl API for Proxmox virtualization
 
 ## Article
-- [servethehome](https://pvecli.xuan2host.com/) Setup Docker on Proxmox VE Using ZFS Storage
+- [servethehome](https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/) Setup Docker on Proxmox VE Using ZFS Storage
 
 ## Blog
 
