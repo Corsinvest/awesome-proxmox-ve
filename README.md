@@ -15,6 +15,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 ## Table of Contents
 
 - [Api](#api)
+- [Article](#article)
 - [Blog](#blog)
 - [Documentation](#documentation)
 - [Site](#site)
@@ -37,9 +38,13 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [pve2-api-java](https://github.com/Elbandi/pve2-api-java) Proxmox 2.0 API Client for Java
 - [Net-Proxmox-VE-0.006](https://metacpan.org/release/DJZORT/Net-Proxmox-VE-0.006) Pure perl API for Proxmox virtualization
 
+## Article
+- [servethehome](https://pvecli.xuan2host.com/) Setup Docker on Proxmox VE Using ZFS Storage
+
 ## Blog
 
 - [pveCLI](https://pvecli.xuan2host.com/) article Proxmox VE
+- [servethehome](https://www.servethehome.com/tag/proxmox-ve/) article Proxmox VE
 
 ## Documentation
 
