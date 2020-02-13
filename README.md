@@ -70,4 +70,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [proxmox-utils](https://github.com/remofritzsche/proxmox-utils) Useful shell (python) scripts for managing proxmox virtual environment.
 - [proxmove](https://github.com/ossobv/proxmove) Migrate virtual machines between different Proxmox VE clusters
 - [pvekclean](https://github.com/jordanhillis/pvekclean) Easily remove old/unused PVE kernels on your Proxmox VE system
+- [xshok-proxmox](https://github.com/extremeshok/xshok-proxmox) proxmox post installation scripts
+
+
 
