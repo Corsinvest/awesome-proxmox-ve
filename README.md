@@ -62,6 +62,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [cv4pve-metrics](https://metrics.cv4pve-tools.com) Metrics cloud for Proxmox VE
 - [Reddit Proxmox](https://www.reddit.com/r/Proxmox/) Reddit
 - [Reddit Proxmox VE](https://www.reddit.com/r/ProxmoxVE/) Reddit
+- [Facebook Group](https://www.facebook.com/groups/proxmox/) Facebook Group
 
 ## Tools
 
