@@ -24,6 +24,9 @@ The [Proxmox VE](https://pve.proxmox.com)
 ## Api
 - [Proxmox API](https://pve.proxmox.com/wiki/Proxmox_VE_API) Proxmox Documentation API
 
+- go
+  - [proxmox-api-go](https://github.com/Telmate/proxmox-api-go) Consume the proxmox API in golang
+
 - .Net
   - [cv4pve-api-dotnet](https://github.com/Corsinvest/cv4pve-api-dotnet) Proxmox VE Client API .Net C#
   - [ProxmoxSharp](https://github.com/ionelanton/ProxmoxSharp) Proxmox C# API client
