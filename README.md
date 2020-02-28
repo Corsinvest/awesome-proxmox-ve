@@ -22,21 +22,34 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Tools](#tools)
 
 ## Api
-
 - [Proxmox API](https://pve.proxmox.com/wiki/Proxmox_VE_API) Proxmox Documentation API
-- [cv4pve-api-dotnet](https://github.com/Corsinvest/cv4pve-api-dotnet) Proxmox VE Client API .Net C#
-- [cv4pve-api-java](https://github.com/Corsinvest/cv4pve-api-java) Proxmox VE Client API JAVA
-- [cv4pve-api-php](https://github.com/Corsinvest/cv4pve-api-php) Proxmox VE Client API PHP
-- [Proxmoxer](https://pypi.org/project/proxmoxer/) Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
-- [pyproxmox](https://pypi.org/project/pyproxmox/) Python Wrapper for the Proxmox 2.x API
-- [Proxmoxia](https://github.com/baseblack/Proxmoxia) Yet another Python wrapper for the Proxmox REST API.
-- [Proxmox](https://github.com/nledez/proxmox) You need to manage a proxmox host with Ruby? This library is for you.
-- [Proxmox](https://www.npmjs.com/package/proxmox) node.js proxmox client
-- [ProxmoxSharp](https://github.com/ionelanton/ProxmoxSharp) Proxmox C# API client
-- [pve2-api-php-client](https://github.com/CpuID/pve2-api-php-client) Proxmox 2.0 API Client for PHP
-- [ProxmoxVE](https://github.com/ZzAntares/ProxmoxVE) This PHP 5.5+ library allows you to interact with your Proxmox server API.
-- [pve2-api-java](https://github.com/Elbandi/pve2-api-java) Proxmox 2.0 API Client for Java
-- [Net-Proxmox-VE-0.006](https://metacpan.org/release/DJZORT/Net-Proxmox-VE-0.006) Pure perl API for Proxmox virtualization
+
+- .Net
+  - [cv4pve-api-dotnet](https://github.com/Corsinvest/cv4pve-api-dotnet) Proxmox VE Client API .Net C#
+  - [ProxmoxSharp](https://github.com/ionelanton/ProxmoxSharp) Proxmox C# API client
+
+- Php
+  - [cv4pve-api-php](https://github.com/Corsinvest/cv4pve-api-php) Proxmox VE Client API PHP
+  - [ProxmoxVE](https://github.com/ZzAntares/ProxmoxVE) This PHP 5.5+ library allows you to interact with your Proxmox server API.
+  - [pve2-api-php-client](https://github.com/CpuID/pve2-api-php-client) Proxmox 2.0 API Client for PHP
+
+- Java
+  - [cv4pve-api-java](https://github.com/Corsinvest/cv4pve-api-java) Proxmox VE Client API JAVA
+  - [pve2-api-java](https://github.com/Elbandi/pve2-api-java) Proxmox 2.0 API Client for Java
+
+- Python
+  - [Proxmoxer](https://pypi.org/project/proxmoxer/) Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
+  - [pyproxmox](https://pypi.org/project/pyproxmox/) Python Wrapper for the Proxmox 2.x API
+  - [Proxmoxia](https://github.com/baseblack/Proxmoxia) Yet another Python wrapper for the Proxmox REST API.
+
+- Perl
+  - [Net-Proxmox-VE-0.006](https://metacpan.org/release/DJZORT/Net-Proxmox-VE-0.006) Pure perl API for Proxmox virtualization
+  
+- Ruby
+  - [Proxmox](https://github.com/nledez/proxmox) You need to manage a proxmox host with Ruby? This library is for you.
+ 
+- NodeJs
+  - [Proxmox](https://www.npmjs.com/package/proxmox) node.js proxmox client
 
 ## Article
 - [servethehome](https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/) Setup Docker on Proxmox VE Using ZFS Storage
