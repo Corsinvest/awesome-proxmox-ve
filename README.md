@@ -56,6 +56,9 @@ The [Proxmox VE](https://pve.proxmox.com)
 
 ## Article
 - [servethehome](https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/) Setup Docker on Proxmox VE Using ZFS Storage
+- [Recommended settings for Windows 10 and 2019 Server on Proxmox](https://davejansen.com/recommended-settings-windows-10-2016-2018-2019-vm-proxmox/)
+
+
 
 ## Blog
 
