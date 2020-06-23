@@ -103,7 +103,8 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [proxmox-tools](https://github.com/marrobHD/proxmox-tools) 📦 A collection of stuff that I wrote for Proxmox 📦
 
 ## Video
-- [Resizing Virtual Hard Drives in Proxmox
-](https://www.youtube.com/watch?v=hRP7u3QPNOM) Resizing Virtual Hard Drives in Proxmox
+- [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
+- [Creating a Ubuntu LXC in Proxmox for Docker](https://www.youtube.com/watch?v=1EYAGl96dZY&t)
+
 
 
