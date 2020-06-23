@@ -105,7 +105,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 ## Video
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
 - [Creating a Ubuntu LXC in Proxmox for Docker](https://www.youtube.com/watch?v=1EYAGl96dZY&t)
-- [Creating a Ubuntu LXC in Proxmox for Docker](Proxmox 6.1 and 6.2 PCIe Passthrough)
+- [Proxmox 6.1 and 6.2 PCIe Passthrough](https://www.youtube.com/watch?v=_fkKIMF3HZw)
 
 
 
