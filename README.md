@@ -60,6 +60,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Recommended settings for Windows 10 and 2019 Server on Proxmox](https://davejansen.com/recommended-settings-windows-10-2016-2018-2019-vm-proxmox/)
 - [Proxmox Training](https://github.com/ondrejsika/proxmox-training)
 - [Proxmox-RancherOS-Portainer Ultimate Setup](https://gist.github.com/mow4cash/a57e893fc640ccf3720e99fc6b3b879a)
+- [Proxmox: Automatische Snapshots einrichten](https://techlr.de/proxmox-automatische-snapshots-einrichten/)
 
 ## Blog
 
@@ -107,6 +108,3 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
 - [Creating a Ubuntu LXC in Proxmox for Docker](https://www.youtube.com/watch?v=1EYAGl96dZY&t)
 - [Proxmox 6.1 and 6.2 PCIe Passthrough](https://www.youtube.com/watch?v=_fkKIMF3HZw)
-
-
-
