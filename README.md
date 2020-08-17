@@ -55,6 +55,9 @@ The [Proxmox VE](https://pve.proxmox.com)
 - NodeJs
   - [Proxmox](https://www.npmjs.com/package/proxmox) node.js proxmox client
 
+- PowerShell
+  - [cv4pve-api-pwsh](https://github.com/Corsinvest/cv4pve-api-pwsh) 
+
 ## Article
 - [Setup Docker on Proxmox VE Using ZFS Storage](https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/)
 - [Recommended settings for Windows 10 and 2019 Server on Proxmox](https://davejansen.com/recommended-settings-windows-10-2016-2018-2019-vm-proxmox/)
