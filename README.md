@@ -106,6 +106,8 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [xshok-proxmox](https://github.com/extremeshok/xshok-proxmox) proxmox post installation scripts
 - [pve-patches](https://github.com/ayufan/pve-patches) Incremental backup
 - [proxmox-tools](https://github.com/marrobHD/proxmox-tools) 📦 A collection of stuff that I wrote for Proxmox 📦
+- [Proxmox-Launcher](https://github.com/domingoruiz/Proxmox-Launcher) Proxmox Launcher
+
 
 ## Video
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
