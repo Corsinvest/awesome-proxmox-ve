@@ -54,9 +54,10 @@ The [Proxmox VE](https://pve.proxmox.com)
  
 - NodeJs
   - [Proxmox](https://www.npmjs.com/package/proxmox) node.js proxmox client
+  - [cv4pve-api-javascript](https://github.com/Corsinvest/cv4pve-api-javascript) Proxmox VE Client API Javascript
 
 - PowerShell
-  - [cv4pve-api-pwsh](https://github.com/Corsinvest/cv4pve-api-pwsh) 
+  - [cv4pve-api-powershell](https://github.com/Corsinvest/cv4pve-api-powershell) 
 
 ## Article
 - [Setup Docker on Proxmox VE Using ZFS Storage](https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/)
