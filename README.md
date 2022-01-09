@@ -63,7 +63,6 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Setup Docker on Proxmox VE Using ZFS Storage](https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/)
 - [Recommended settings for Windows 10 and 2019 Server on Proxmox](https://davejansen.com/recommended-settings-windows-10-2016-2018-2019-vm-proxmox/)
 - [Proxmox Training](https://github.com/ondrejsika/proxmox-training)
-- [Proxmox-RancherOS-Portainer Ultimate Setup](https://gist.github.com/mow4cash/a57e893fc640ccf3720e99fc6b3b879a)
 - [Proxmox: Automatische Snapshots einrichten](https://techlr.de/proxmox-automatische-snapshots-einrichten/)
 
 ## Blog
@@ -78,7 +77,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 
 ## Site
 
-- [Ufficial Forum](https://forum.proxmox.com/) Ufficial Forum
+- [Official Forum](https://forum.proxmox.com/) Official Forum
 - [Git Developer](https://git.proxmox.com/?o=age) Git Developer Proxmox VE
 - [Bugzilla](https://bugzilla.proxmox.com/) Bugzilla Proxmox VE
 - [pve-devel](https://www.mail-archive.com/pve-devel@pve.proxmox.com/index.html) Mailing List Developer Proxmox VE
