@@ -64,6 +64,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Recommended settings for Windows 10 and 2019 Server on Proxmox](https://davejansen.com/recommended-settings-windows-10-2016-2018-2019-vm-proxmox/)
 - [Proxmox Training](https://github.com/ondrejsika/proxmox-training)
 - [Proxmox: Automatische Snapshots einrichten](https://techlr.de/proxmox-automatische-snapshots-einrichten/)
+- [Installing macOS 12 “Monterey” on Proxmox 7](https://www.nicksherlock.com/2021/10/installing-macos-12-monterey-on-proxmox-7/)
 
 ## Blog
 
