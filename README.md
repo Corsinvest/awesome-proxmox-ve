@@ -66,6 +66,11 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Proxmox: Automatische Snapshots einrichten](https://techlr.de/proxmox-automatische-snapshots-einrichten/)
 - [Installing macOS 12 “Monterey” on Proxmox 7](https://www.nicksherlock.com/2021/10/installing-macos-12-monterey-on-proxmox-7/)
 
+## Monitoring
+- [Monitoring Proxmox with InfluxDB and Grafana in 4 Easy steps](https://www.linuxsysadmins.com/monitoring-proxmox-with-grafana/)
+- [Efficient Proxmox monitoring with Checkmk](https://checkmk.com/blog/proxmox-monitoring)
+- [Proxmox VE Monitoring](https://pandorafms.com/blog/proxmox-ve-monitoring/)
+
 ## Blog
 
 - [pveCLI](https://pvecli.xuan2host.com/) article Proxmox VE
@@ -100,6 +105,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [cv4pve-pepper](https://github.com/Corsinvest/cv4pve-pepper) Launching SPICE remote-viewer having access VM running on Proxmox VE
 - [cv4pve-metric](https://github.com/Corsinvest/cv4pve-metric) Metrics for Proxmox VE
 - [cv4pve-metrics-exporter](https://github.com/Corsinvest/cv4pve-metrics-exporter) Metric exporter Prometheus for Proxmox VE
+- [cv4pve-api-pwsh](https://github.com/Corsinvest/cv4pve-api-powershell) Power Shell for Proxmox VE
 - [pve-cli-utils](https://github.com/aheahe/pve-cli-utils) ProxmoxVE Command Line Interface Utilities
 - [proxmox-utils](https://github.com/remofritzsche/proxmox-utils) Useful shell (python) scripts for managing proxmox virtual environment.
 - [proxmove](https://github.com/ossobv/proxmove) Migrate virtual machines between different Proxmox VE clusters
@@ -109,8 +115,8 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [proxmox-tools](https://github.com/marrobHD/proxmox-tools) 📦 A collection of stuff that I wrote for Proxmox 📦
 - [Proxmox-Launcher](https://github.com/domingoruiz/Proxmox-Launcher) Proxmox Launcher
 
-
 ## Video
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
 - [Creating a Ubuntu LXC in Proxmox for Docker](https://www.youtube.com/watch?v=1EYAGl96dZY&t)
 - [Proxmox 6.1 and 6.2 PCIe Passthrough](https://www.youtube.com/watch?v=_fkKIMF3HZw)
+- [Proxmox Monitoring Tools: InfluxDB2 + Grafana](https://www.youtube.com/watch?v=f2eyVfCTLi0)
