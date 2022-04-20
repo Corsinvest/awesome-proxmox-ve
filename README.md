@@ -60,6 +60,7 @@ The [Proxmox VE](https://pve.proxmox.com)
   - [cv4pve-api-powershell](https://github.com/Corsinvest/cv4pve-api-powershell) 
 
 ## Article
+
 - [Setup Docker on Proxmox VE Using ZFS Storage](https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/)
 - [Recommended settings for Windows 10 and 2019 Server on Proxmox](https://davejansen.com/recommended-settings-windows-10-2016-2018-2019-vm-proxmox/)
 - [Proxmox Training](https://github.com/ondrejsika/proxmox-training)
@@ -67,6 +68,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Installing macOS 12 “Monterey” on Proxmox 7](https://www.nicksherlock.com/2021/10/installing-macos-12-monterey-on-proxmox-7/)
 
 ## Monitoring
+
 - [Monitoring Proxmox with InfluxDB and Grafana in 4 Easy steps](https://www.linuxsysadmins.com/monitoring-proxmox-with-grafana/)
 - [Efficient Proxmox monitoring with Checkmk](https://checkmk.com/blog/proxmox-monitoring)
 - [Proxmox VE Monitoring](https://pandorafms.com/blog/proxmox-ve-monitoring/)
@@ -114,6 +116,8 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [pve-patches](https://github.com/ayufan/pve-patches) Incremental backup
 - [proxmox-tools](https://github.com/marrobHD/proxmox-tools) 📦 A collection of stuff that I wrote for Proxmox 📦
 - [Proxmox-Launcher](https://github.com/domingoruiz/Proxmox-Launcher) Proxmox Launcher
+- [Proxmox Helper Scripts](https://github.com/tteck/Proxmox)
+
 
 ## Video
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
