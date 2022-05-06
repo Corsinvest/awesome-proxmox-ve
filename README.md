@@ -114,6 +114,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [pvekclean](https://github.com/jordanhillis/pvekclean) Easily remove old/unused PVE kernels on your Proxmox VE system
 - [xshok-proxmox](https://github.com/extremeshok/xshok-proxmox) proxmox post installation scripts
 - [pve-patches](https://github.com/ayufan/pve-patches) Incremental backup
+- [proxmox-pci-switcher](https://github.com/rosineygp/proxmox-pci-switcher) Switch among Guest VMs organized by Resource Pool
 - [proxmox-tools](https://github.com/marrobHD/proxmox-tools) 📦 A collection of stuff that I wrote for Proxmox 📦
 - [Proxmox-Launcher](https://github.com/domingoruiz/Proxmox-Launcher) Proxmox Launcher
 - [Proxmox Helper Scripts](https://github.com/tteck/Proxmox)
