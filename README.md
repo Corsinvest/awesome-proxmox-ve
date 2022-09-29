@@ -66,6 +66,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Proxmox Training](https://github.com/ondrejsika/proxmox-training)
 - [Proxmox: Automatische Snapshots einrichten](https://techlr.de/proxmox-automatische-snapshots-einrichten/)
 - [Installing macOS 12 “Monterey” on Proxmox 7](https://www.nicksherlock.com/2021/10/installing-macos-12-monterey-on-proxmox-7/)
+- [Proxmox VE 7 Corosync QDevice in a Docker container](https://raymii.org/s/tutorials/Proxmox_VE_7_Corosync_QDevice_in_Docker.html)
 
 ## Monitoring
 
