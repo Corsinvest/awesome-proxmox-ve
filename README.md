@@ -73,6 +73,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Monitoring Proxmox with InfluxDB and Grafana in 4 Easy steps](https://www.linuxsysadmins.com/monitoring-proxmox-with-grafana/)
 - [Efficient Proxmox monitoring with Checkmk](https://checkmk.com/blog/proxmox-monitoring)
 - [Proxmox VE Monitoring](https://pandorafms.com/blog/proxmox-ve-monitoring/)
+- [SNMP Scripts to monitor Proxmox VE](https://github.com/in-famous-raccoon/proxmox-snmp)
 
 ## Blog
 
