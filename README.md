@@ -120,6 +120,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [proxmox-tools](https://github.com/marrobHD/proxmox-tools) 📦 A collection of stuff that I wrote for Proxmox 📦
 - [Proxmox-Launcher](https://github.com/domingoruiz/Proxmox-Launcher) Proxmox Launcher
 - [Proxmox Helper Scripts](https://github.com/tteck/Proxmox)
+- [pbs-exporter](https://github.com/rare-magma/pbs-exporter) Bash script that uploads proxmox backup server API info to prometheus' pushgateway. 
 
 
 ## Video
