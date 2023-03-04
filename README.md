@@ -1,44 +1,38 @@
-# Awesome Proxmox VE
+# __Awesome Proxmox VE__
 
-![Proxmox VE](https://www.proxmox.com/images/proxmox/Proxmox-logo-800.png)
+![Proxmox VE|300](https://www.proxmox.com/images/proxmox/Proxmox-logo-800.png)
 
-This repo is a collection of **AWESOME** [Proxmox VE](https://pve.proxmox.com) documentation and tools for **any users/developers**.
+This repo is a collection of **AWESOME** [Proxmox VE](https://pve.proxmox.com) documentation, tools, and resources for **any user or developer**.
 
 Feel free to **contribute** / **star** / **fork** / **pull request** . Any **recommendations** and **suggestions** are welcome.
 
-# License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-The [Proxmox VE](https://pve.proxmox.com)
-
 ## Table of Contents
 
-- [Api](#api)
-- [Article](#article)
-- [Blog](#blog)
+- [API](#api)
+- [Articles](#articles)
+- [Blogs](#blogs)
 - [Documentation](#documentation)
-- [Site](#site)
+- [Community](#community)
 - [Tools](#tools)
-- [Video](#video)
+- [Videos](#videos)
 
-## Api
+## API
 - [Proxmox API](https://pve.proxmox.com/wiki/Proxmox_VE_API) Proxmox Documentation API
 
-- go
-  - [proxmox-api-go](https://github.com/Telmate/proxmox-api-go) Consume the proxmox API in golang
+- Go
+  - [proxmox-api-go](https://github.com/Telmate/proxmox-api-go) Using the Proxmox API in golang
 
 - .Net
   - [cv4pve-api-dotnet](https://github.com/Corsinvest/cv4pve-api-dotnet) Proxmox VE Client API .Net C#
   - [ProxmoxSharp](https://github.com/ionelanton/ProxmoxSharp) Proxmox C# API client
 
-- Php
+- PHP
   - [cv4pve-api-php](https://github.com/Corsinvest/cv4pve-api-php) Proxmox VE Client API PHP
-  - [ProxmoxVE](https://github.com/ZzAntares/ProxmoxVE) This PHP 5.5+ library allows you to interact with your Proxmox server API.
+  - [ProxmoxVE](https://github.com/ZzAntares/ProxmoxVE) This PHP 5.5+ library allows you to interact with your Proxmox server API
   - [pve2-api-php-client](https://github.com/CpuID/pve2-api-php-client) Proxmox 2.0 API Client for PHP
 
 - Java
-  - [cv4pve-api-java](https://github.com/Corsinvest/cv4pve-api-java) Proxmox VE Client API JAVA
+  - [cv4pve-api-java](https://github.com/Corsinvest/cv4pve-api-java) Proxmox VE Client API Java
   - [pve2-api-java](https://github.com/Elbandi/pve2-api-java) Proxmox 2.0 API Client for Java
 
 - Python
@@ -50,16 +44,17 @@ The [Proxmox VE](https://pve.proxmox.com)
   - [Net-Proxmox-VE-0.006](https://metacpan.org/release/DJZORT/Net-Proxmox-VE-0.006) Pure perl API for Proxmox virtualization
   
 - Ruby
-  - [Proxmox](https://github.com/nledez/proxmox) You need to manage a proxmox host with Ruby? This library is for you.
+  - [Proxmox](https://github.com/nledez/proxmox) Need to manage a proxmox host with Ruby? This library is for you.
  
-- NodeJs
-  - [Proxmox](https://www.npmjs.com/package/proxmox) node.js proxmox client
+- Node.js
+  - [Proxmox](https://www.npmjs.com/package/proxmox) Node.js Proxmox client
   - [cv4pve-api-javascript](https://github.com/Corsinvest/cv4pve-api-javascript) Proxmox VE Client API Javascript
 
 - PowerShell
-  - [cv4pve-api-powershell](https://github.com/Corsinvest/cv4pve-api-powershell) 
+  - [cv4pve-api-powershell](https://github.com/Corsinvest/cv4pve-api-powershell) ProxmoxVE PowerShell module for accessing API
 
-## Article
+
+## Articles
 
 - [Setup Docker on Proxmox VE Using ZFS Storage](https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/)
 - [Recommended settings for Windows 10 and 2019 Server on Proxmox](https://davejansen.com/recommended-settings-windows-10-2016-2018-2019-vm-proxmox/)
@@ -75,7 +70,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Proxmox VE Monitoring](https://pandorafms.com/blog/proxmox-ve-monitoring/)
 - [SNMP Scripts to monitor Proxmox VE](https://github.com/in-famous-raccoon/proxmox-snmp)
 
-## Blog
+## Blogs
 
 - [pveCLI](https://pvecli.xuan2host.com/) article Proxmox VE
 - [servethehome](https://www.servethehome.com/tag/proxmox-ve/) article Proxmox VE
@@ -85,7 +80,7 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [Official Wiki](https://pve.proxmox.com) Index Wiki
 - [Official Docs](https://pve.proxmox.com/pve-docs/) Index official documentation
 
-## Site
+## Community
 
 - [Official Forum](https://forum.proxmox.com/) Official Forum
 - [Git Developer](https://git.proxmox.com/?o=age) Git Developer Proxmox VE
@@ -123,8 +118,15 @@ The [Proxmox VE](https://pve.proxmox.com)
 - [pbs-exporter](https://github.com/rare-magma/pbs-exporter) Bash script that uploads proxmox backup server API info to prometheus' pushgateway. 
 
 
-## Video
+## Videos
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
 - [Creating a Ubuntu LXC in Proxmox for Docker](https://www.youtube.com/watch?v=1EYAGl96dZY&t)
 - [Proxmox 6.1 and 6.2 PCIe Passthrough](https://www.youtube.com/watch?v=_fkKIMF3HZw)
 - [Proxmox Monitoring Tools: InfluxDB2 + Grafana](https://www.youtube.com/watch?v=f2eyVfCTLi0)
+
+
+# License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+This project is not affiliated with Proxmox, which is free software distributed under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) (aGPLv3).
