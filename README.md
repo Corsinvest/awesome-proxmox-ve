@@ -116,7 +116,7 @@ Feel free to **contribute** / **star** / **fork** / **pull request** . Any **rec
 - [Proxmox-Launcher](https://github.com/domingoruiz/Proxmox-Launcher) Proxmox Launcher
 - [Proxmox Helper Scripts](https://github.com/tteck/Proxmox)
 - [pbs-exporter](https://github.com/rare-magma/pbs-exporter) Bash script that uploads proxmox backup server API info to prometheus' pushgateway. 
-
+- [https://github.com/Aizen-Barbaros/Proxmox-WoL) A script to enable Wake on LAN on Proxmox
 
 ## Videos
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
