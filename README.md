@@ -96,6 +96,7 @@ Feel free to **contribute** / **star** / **fork** / **pull request** . Any **rec
 
 ## Tools
 
+- [cv4pve-admin](https://github.com/Corsinvest/cv4pve-admin) Admin Web for Proxmox VE
 - [cv4pve-autosnap](https://github.com/Corsinvest/cv4pve-autosnap) Automatic snapshot tool for Proxmox VE
 - [cv4pve-barc](https://github.com/Corsinvest/cv4pve-barc) Backup And Restore Ceph for Proxmox VE
 - [cv4pve-cli](https://github.com/Corsinvest/cv4pve-cli) Cli for Proxmox VE (Command Line Interfaces)
