@@ -120,6 +120,7 @@ Feel free to **contribute** / **star** / **fork** / **pull request** . Any **rec
 - [pbs-exporter](https://github.com/rare-magma/pbs-exporter) Bash script that uploads proxmox backup server API info to prometheus' pushgateway. 
 - [Proxmox-WoL](https://github.com/Aizen-Barbaros/Proxmox-WoL) A script to enable Wake on LAN on Proxmox
 - [tteck](https://github.com/tteck/Proxmox) tteck - Proxmox Helper Scripts
+- [Proxmox Paste](https://gist.github.com/amunchet/4cfaf0274f3d238946f9f8f94fa9ee02) - Proxmox Tampermonkey script to allow pasting into UI client (for VMs)
 
 ## Videos
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
