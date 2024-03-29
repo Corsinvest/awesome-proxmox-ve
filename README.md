@@ -63,6 +63,7 @@ Feel free to **contribute** / **star** / **fork** / **pull request** . Any **rec
 - [Installing macOS 12 “Monterey” on Proxmox 7](https://www.nicksherlock.com/2021/10/installing-macos-12-monterey-on-proxmox-7/)
 - [Proxmox VE 7 Corosync QDevice in a Docker container](https://raymii.org/s/tutorials/Proxmox_VE_7_Corosync_QDevice_in_Docker.html)
 - [Proxmox New Import Wizard for Migrating VMware ESXi VMs](https://www.virtualizationhowto.com/2024/03/proxmox-new-import-wizard-for-migrating-vmware-esxi-vms/)
+- [Proxmox Ebook Free Download for Home Labs](https://www.virtualizationhowto.com/2024/03/proxmox-ebook-free-download-for-home-labs/)
 
 ## Monitoring
 
