@@ -77,6 +77,7 @@ Feel free to **contribute** / **star** / **fork** / **pull request** . Any **rec
 - [pveCLI](https://pvecli.xuan2host.com/) article Proxmox VE
 - [servethehome](https://www.servethehome.com/tag/proxmox-ve/) article Proxmox VE
 - [Techno Tim](https://docs.technotim.live/tags/proxmox/)  Techno Tim - Proxmox VE
+- [ElectronicsWizardry](https://www.youtube.com/@ElectronicsWizardry) Electronics Wizardry - A YouTube channel featuring a wealth of videos on Proxmox
 
 ## Documentation
 
