@@ -7,17 +7,14 @@ This repo is a collection of **AWESOME** [Proxmox VE](https://pve.proxmox.com) d
 Feel free to **contribute** / **star** / **fork** / **pull request** . Any **recommendations** and **suggestions** are welcome.
 
 ## Table of Contents
-
-- [__Awesome Proxmox VE__](#awesome-proxmox-ve)
-  - [Table of Contents](#table-of-contents)
-  - [API](#api)
-  - [Articles](#articles)
-  - [Monitoring](#monitoring)
-  - [Blogs](#blogs)
-  - [Documentation](#documentation)
-  - [Community](#community)
-  - [Tools](#tools)
-  - [Videos](#videos)
+- [API](#api)
+- [Articles](#articles)
+- [Monitoring](#monitoring)
+- [Blogs](#blogs)
+- [Documentation](#documentation)
+- [Community](#community)
+- [Tools](#tools)
+- [Videos](#videos)
 - [License](#license)
 
 ## API
