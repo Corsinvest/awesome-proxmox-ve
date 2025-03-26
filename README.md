@@ -127,6 +127,7 @@ Feel free to **contribute** / **star** / **fork** / **pull request** . Any **rec
 - [Proxmox Paste](https://gist.github.com/amunchet/4cfaf0274f3d238946f9f8f94fa9ee02) - Proxmox Tampermonkey script to allow pasting into UI client (for VMs)
 - [Proxmox LXC AutoScale](https://github.com/fabriziosalmi/proxmox-lxc-autoscale) - Automatically scale the LXC containers resources on Proxmox hosts, with or without AI.
 - [Proxmox-Enhanced-Configuration-Utility (PECU)](https://github.com/Danilop95/Proxmox-Enhanced-Configuration-Utility) - Proxmox Scripts: Repos Update and GPU Passthrough
+- [Promxox-Knockoff-Vapps](https://github.com/ryanq47/Proxmox-Knockoff-Vapps) - A pool-based control plane for ProxmoxVE that mimics "VAPP" functionality
 
 ## Videos
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
