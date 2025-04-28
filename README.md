@@ -149,6 +149,10 @@ Feel free to **contribute** / **star** / **fork** / **pull request** . Any **rec
 - [Proxmox LXC AutoScale](https://github.com/fabriziosalmi/proxmox-lxc-autoscale) - Automatically scale the LXC containers resources on Proxmox hosts, with or without AI.
 - [Proxmox-Enhanced-Configuration-Utility (PECU)](https://github.com/Danilop95/Proxmox-Enhanced-Configuration-Utility) - Proxmox Scripts: Repos Update and GPU Passthrough
 - [Promxox-Knockoff-Vapps](https://github.com/ryanq47/Proxmox-Knockoff-Vapps) - A pool-based control plane for ProxmoxVE that mimics "VAPP" functionality
+- [LXC AutoScale](https://github.com/fabriziosalmi/proxmox-lxc-autoscale) - Resource management daemon specifically designed for Proxmox environments. It automatically adjusts CPU and memory allocations with no downtime and can clone LXC containers based on real-time usage metrics and predefined thresholds.
+- [Proxmox VM Autoscale](https://github.com/fabriziosalmi/proxmox-vm-autoscale) - Service that dynamically adjusts your Proxmox virtual machine (VM) resources (CPU cores, RAM) based on real-time metrics and user-defined thresholds.
+- [ProxLB](https://github.com/gyptazy/ProxLB) - Application created to optimize the distribution of virtual machines (VMs) across Proxmox cluster nodes for significantly enhancing efficiency and performance.
+- [Proxmox VE Helper-Scripts](https://github.com/community-scripts/ProxmoxVE) - Community-driven initiative that simplifies the setup of Proxmox Virtual Environment (VE).
 
 ## Videos
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
