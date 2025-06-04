@@ -154,6 +154,17 @@ Feel free to **contribute** / **star** / **fork** / **pull request** . Any **rec
 - [ProxLB](https://github.com/gyptazy/ProxLB) - Application created to optimize the distribution of virtual machines (VMs) across Proxmox cluster nodes for significantly enhancing efficiency and performance.
 - [Proxmox VE Helper-Scripts](https://github.com/community-scripts/ProxmoxVE) - Community-driven initiative that simplifies the setup of Proxmox Virtual Environment (VE).
 
+## Mobile Apps Android
+- [Proxmox VE](https://play.google.com/store/apps/details?id=com.proxmox.app.pve_flutter_frontend) - Manage virtual machines, containers, hosts, and clusters. 
+- [ProxMate Backup](https://play.google.com/store/apps/details?id=com.itss.proxmatebackup) - Manage Proxmox Backup Servers.
+- [ProxMate Proxmoxm VE](https://play.google.com/store/apps/details?id=itss.proxmate.ios) - Manage Proxmox VE.
+  
+##  Mobile Apps iOS
+- [ProxMobo: Proxmox VE & PBS Management](https://proxmobo.app/) - Powerful monitoring and management app for Proxmox VE and Proxmox Backup Server.
+- [ProxMan](https://proxman.app) - Application designed for managing Proxmox VE virtualization infrastructure and Proxmox Backup Server environments.
+- [ProxMate iOS](https://apps.apple.com/it/app/proxmate/id6470526961) - Manage your Proxmox Server.
+- [ProxMate Backup](https://apps.apple.com/de/app/proxmate-backup/id6618157722) - Manage Proxmox Backup Servers.
+
 ## Videos
 - [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
 - [Creating a Ubuntu LXC in Proxmox for Docker](https://www.youtube.com/watch?v=1EYAGl96dZY&t)
