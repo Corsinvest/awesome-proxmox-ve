@@ -1,179 +1,658 @@
-# __Awesome Proxmox VE__
+# Awesome Proxmox VE ⚡
 
-![Proxmox VE|300](https://www.proxmox.com/images/proxmox/Proxmox-logo-800.png)
-
-This repo is a collection of **AWESOME** [Proxmox VE](https://pve.proxmox.com) documentation, tools, and resources for **any user or developer**.
-
-Feel free to **contribute** / **star** / **fork** / **pull request** . Any **recommendations** and **suggestions** are welcome.
-
-## Table of Contents
-- [API](#api)
-- [Articles](#articles)
-- [Monitoring](#monitoring)
-- [Backups](#backups)
-- [Blogs](#blogs)
-- [Documentation](#documentation)
-- [Community](#community)
-- [Tools](#tools)
-- [Videos](#videos)
-- [License](#license)
-
-## API
-- [Proxmox API](https://pve.proxmox.com/wiki/Proxmox_VE_API) Proxmox Documentation API
-
-- Go
-  - [proxmox-api-go](https://github.com/Telmate/proxmox-api-go) Using the Proxmox API in golang
-
-- .Net
-  - [cv4pve-api-dotnet](https://github.com/Corsinvest/cv4pve-api-dotnet) Proxmox VE Client API .Net C#
-  - [ProxmoxSharp](https://github.com/ionelanton/ProxmoxSharp) Proxmox C# API client
-
-- PHP
-  - [cv4pve-api-php](https://github.com/Corsinvest/cv4pve-api-php) Proxmox VE Client API PHP
-  - [ProxmoxVE](https://github.com/ZzAntares/ProxmoxVE) This PHP 5.5+ library allows you to interact with your Proxmox server API
-  - [pve2-api-php-client](https://github.com/CpuID/pve2-api-php-client) Proxmox 2.0 API Client for PHP
-
-- Java
-  - [cv4pve-api-java](https://github.com/Corsinvest/cv4pve-api-java) Proxmox VE Client API Java
-  - [pve2-api-java](https://github.com/Elbandi/pve2-api-java) Proxmox 2.0 API Client for Java
-
-- Python
-  - [Proxmoxer](https://pypi.org/project/proxmoxer/) Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
-  - [pyproxmox](https://pypi.org/project/pyproxmox/) Python Wrapper for the Proxmox 2.x API
-  - [Proxmoxia](https://github.com/baseblack/Proxmoxia) Yet another Python wrapper for the Proxmox REST API.
-
-- Perl
-  - [Net-Proxmox-VE-0.006](https://metacpan.org/release/DJZORT/Net-Proxmox-VE-0.006) Pure perl API for Proxmox virtualization
+<div align="center">
   
-- Ruby
-  - [Proxmox](https://github.com/nledez/proxmox) Need to manage a proxmox host with Ruby? This library is for you.
- 
-- Node.js
-  - [Proxmox](https://www.npmjs.com/package/proxmox) Node.js Proxmox client
-  - [cv4pve-api-javascript](https://github.com/Corsinvest/cv4pve-api-javascript) Proxmox VE Client API Javascript
-
-- PowerShell
-  - [cv4pve-api-powershell](https://github.com/Corsinvest/cv4pve-api-powershell) ProxmoxVE PowerShell module for accessing API
-
-
-## Articles
-
-- [Setup Docker on Proxmox VE Using ZFS Storage](https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/)
-- [Recommended settings for Windows 10 and 2019 Server on Proxmox](https://davejansen.com/recommended-settings-windows-10-2016-2018-2019-vm-proxmox/)
-- [Proxmox Training](https://github.com/ondrejsika/proxmox-training)
-- [Proxmox: Automatische Snapshots einrichten](https://techlr.de/proxmox-automatische-snapshots-einrichten/)
-- [Installing macOS 12 “Monterey” on Proxmox 7](https://www.nicksherlock.com/2021/10/installing-macos-12-monterey-on-proxmox-7/)
-- [Proxmox VE 7 Corosync QDevice in a Docker container](https://raymii.org/s/tutorials/Proxmox_VE_7_Corosync_QDevice_in_Docker.html)
-- [Proxmox New Import Wizard for Migrating VMware ESXi VMs](https://www.virtualizationhowto.com/2024/03/proxmox-new-import-wizard-for-migrating-vmware-esxi-vms/)
-- [Proxmox Ebook Free Download for Home Labs](https://www.virtualizationhowto.com/2024/03/proxmox-ebook-free-download-for-home-labs/)
-
-## Monitoring
-
-- [Monitoring Proxmox with InfluxDB and Grafana in 4 Easy steps](https://www.linuxsysadmins.com/monitoring-proxmox-with-grafana/)
-- [Efficient Proxmox monitoring with Checkmk](https://checkmk.com/blog/proxmox-monitoring)
-- [Proxmox VE Monitoring](https://pandorafms.com/blog/proxmox-ve-monitoring/)
-- [SNMP Scripts to monitor Proxmox VE](https://github.com/in-famous-raccoon/proxmox-snmp)
-- [CheckMK](https://checkmk.com/blog/proxmox-monitoring) - Proxmox Monitoring: How to Do it Efficiently with Checkmk.
-- [LPAR2RRD](https://lpar2rrd.com/Proxmox-monitoring.php) - Server Performance Monitoring Tool - agentless monitoring, all data is gathered from Proxmox API.
-- [Netdata](https://www.netdata.cloud/integrations/data-collection/containers-and-vms/proxmox-ve/) - Netdata can be used to monitor all kinds of infrastructure, from tiny stand-alone IoT devices to complex hybrid setups combining on-premise and cloud infrastructure, mixing bare-metal servers, virtual machines and containers.
-- [PandoraFMS](https://pandorafms.com/blog/proxmox-ve-monitoring/) - Proxmox VE monitoring with Pandora FMS.
-- [Prometheus](https://github.com/prometheus-pve/prometheus-pve-exporter) - This is an exporter that exposes information gathered from Proxmox VE node for use by the Prometheus monitoring system.
-- [VictoriaMetrics](https://victoriametrics.com/blog/proxmox-monitoring-with-dbaas/) - The High-Performance, Open Source Time Series Database & Monitoring Solution.
-- [Zabbix](https://www.zabbix.com/de/integrations/proxmox) - Template for monitoring Proxmox with Zabbix.
-
-## Backups
-
-- [EAGLE](https://www.backup-eagle.com/product/proxmox) - Backup Monitoring and Reporting. Centralised view of backups, backup system health and backup storage for on-prem and cloud backups.
-- [Bacula Enterprise](https://www.baculasystems.com/corporate-data-backup-software-solutions/bacula-enterprise-data-backup-software/features/) - Bacula Enterprise is a subscription-based enterprise data backup solution. The Proxmox-Plugin is designed to work seamlessly with the latest releases of Proxmox VE.
-- [BDRSuite](https://www.bdrsuite.com/proxmox-backup/) - Comprehensive Backup and Disaster Recovery solution for virtual, physical, cloud, and SaaS applications. Agentless Backup and Recovery for Proxmox Virtual Machines. [[docs](https://www.bdrsuite.com/technical-documents/)] [[download](https://www.bdrsuite.com/vembu-bdr-suite-download/)]
-- [Catalogic DPX](https://www.catalogicsoftware.com/portfolio/proxmox/) - Integrates seamlessly with Proxmox Virtual Environment (VE). DPX vPlus enables agentless Proxmox backup and recovery.
-- [Commvault](https://www.commvault.com/use-cases/backup-and-recovery) - Protects VMs that are hosted in the Proxmox Virtual Environment [[docs](https://documentation.commvault.com/11.38/essential/backups_for_proxmox_vms.html)]
-- [NAKIVO](https://www.nakivo.com/proxmox-backup/) - Offers backup, replication, failover, backup to cloud, backup to tape, backup copy, backup data reduction, instant verification, granular restore and disaster recovery orchestration for virtual, physical, cloud and SaaS environments. [[trial](https://www.nakivo.com/resources/download/trial-download/), [docs](https://helpcenter.nakivo.com/User-Guide/Content/Home.htm)]
-- [PBS Proxmox Backup Server](https://proxmox.com/en/products/proxmox-backup-server/overview) - Enterprise backup solution, for backing up and restoring VMs, containers, and physical hosts. [[download](https://proxmox.com/en/downloads/proxmox-backup-server), [docs](https://pbs.proxmox.com/docs/installation.html)]
-- [SEP](https://www.sep.de/solutions/proxmox-hypervisor/) - SEP sesam provides efficient data protection for virtual machines (VMs) running on Proxmox VE
-- [Veeam](https://www.veeam.com/blog/veeam-backup-for-proxmox.html) - Well-known Enterprise backup solution.
-- [Vinchin](https://www.vinchin.com/proxmox-backup.html) - Ease-of-use, secure and reliable data protection and disaster recovery solution designed to support protecting virtual machines (VM), cloud instances, databases, Exchange (on-premise and online) and unstructured data (file server and NAS server). [[trial](https://www.vinchin.com/vinchin-software-documentation-downloads.html), [docs](https://helpcenter.vinchin.com/)]
-
-## Blogs
-
-- [pveCLI](https://pvecli.xuan2host.com/) article Proxmox VE
-- [servethehome](https://www.servethehome.com/tag/proxmox-ve/) article Proxmox VE
-- [Techno Tim](https://docs.technotim.live/tags/proxmox/)  Techno Tim - Proxmox VE
-- [ElectronicsWizardry](https://www.youtube.com/@ElectronicsWizardry) Electronics Wizardry - A YouTube channel featuring a wealth of videos on Proxmox
-
-## Documentation
-
-- [Official Wiki](https://pve.proxmox.com) Index Wiki
-- [Official Docs](https://pve.proxmox.com/pve-docs/) Index official documentation
-
-## Community
-
-- [Official Forum](https://forum.proxmox.com/) Official Forum
-- [Git Developer](https://git.proxmox.com/?o=age) Git Developer Proxmox VE
-- [Bugzilla](https://bugzilla.proxmox.com/) Bugzilla Proxmox VE
-- [pve-devel](https://www.mail-archive.com/pve-devel@pve.proxmox.com/index.html) Mailing List Developer Proxmox VE
-- [pve-user](https://www.mail-archive.com/pve-user@pve.proxmox.com/) Mailing List User Proxmox VE
-- [cv4pve-tools](https://www.cv4pve-tools.com) cv4pve-tools Utility for Proxmox VE
-- [cv4pve-metrics](https://metrics.cv4pve-tools.com) Metrics cloud for Proxmox VE
-- [Reddit Proxmox](https://www.reddit.com/r/Proxmox/) Reddit
-- [Reddit Proxmox VE](https://www.reddit.com/r/ProxmoxVE/) Reddit
-- [Facebook Group](https://www.facebook.com/groups/proxmox/) Facebook Group
-
-## Tools
-
-- [cv4pve-admin](https://github.com/Corsinvest/cv4pve-admin) Admin Web for Proxmox VE
-- [cv4pve-autosnap](https://github.com/Corsinvest/cv4pve-autosnap) Automatic snapshot tool for Proxmox VE
-- [cv4pve-barc](https://github.com/Corsinvest/cv4pve-barc) Backup And Restore Ceph for Proxmox VE
-- [cv4pve-cli](https://github.com/Corsinvest/cv4pve-cli) Cli for Proxmox VE (Command Line Interfaces)
-- [cv4pve-botgram](https://github.com/Corsinvest/cv4pve-botgram) Telegram Bot for Proxmox VE
-- [cv4pve-diag](https://github.com/Corsinvest/cv4pve-diag) Diagnostic tool for Proxmox VE
-- [cv4pve-node-protect](https://github.com/Corsinvest/cv4pve-node-protect) Proxmox VE protect configuration file nodes
-- [cv4pve-pepper](https://github.com/Corsinvest/cv4pve-pepper) Launching SPICE remote-viewer having access VM running on Proxmox VE
-- [cv4pve-metric](https://github.com/Corsinvest/cv4pve-metric) Metrics for Proxmox VE
-- [cv4pve-metrics-exporter](https://github.com/Corsinvest/cv4pve-metrics-exporter) Metric exporter Prometheus for Proxmox VE
-- [cv4pve-api-pwsh](https://github.com/Corsinvest/cv4pve-api-powershell) Power Shell for Proxmox VE
-- [pve-cli-utils](https://github.com/aheahe/pve-cli-utils) ProxmoxVE Command Line Interface Utilities
-- [proxmox-utils](https://github.com/remofritzsche/proxmox-utils) Useful shell (python) scripts for managing proxmox virtual environment.
-- [proxmove](https://github.com/ossobv/proxmove) Migrate virtual machines between different Proxmox VE clusters
-- [pvekclean](https://github.com/jordanhillis/pvekclean) Easily remove old/unused PVE kernels on your Proxmox VE system
-- [xshok-proxmox](https://github.com/extremeshok/xshok-proxmox) proxmox post installation scripts
-- [pve-patches](https://github.com/ayufan/pve-patches) Incremental backup
-- [proxmox-pci-switcher](https://github.com/rosineygp/proxmox-pci-switcher) Switch among Guest VMs organized by Resource Pool
-- [proxmox-tools](https://github.com/marrobHD/proxmox-tools) 📦 A collection of stuff that I wrote for Proxmox 📦
-- [proxmox-vm-to-ct](https://github.com/thushan/proxmox-vm-to-ct) Easily convert Proxmox VMs to Containers
-- [Proxmox-Launcher](https://github.com/domingoruiz/Proxmox-Launcher) Proxmox Launcher
-- [Proxmox Helper Scripts](https://github.com/community-scripts/ProxmoxVE)
-- [pbs-exporter](https://github.com/rare-magma/pbs-exporter) Bash script that uploads proxmox backup server API info to prometheus' pushgateway. 
-- [Proxmox-WoL](https://github.com/Aizen-Barbaros/Proxmox-WoL) A script to enable Wake on LAN on Proxmox
-- [Proxmox Paste](https://gist.github.com/amunchet/4cfaf0274f3d238946f9f8f94fa9ee02) - Proxmox Tampermonkey script to allow pasting into UI client (for VMs)
-- [Proxmox LXC AutoScale](https://github.com/fabriziosalmi/proxmox-lxc-autoscale) - Automatically scale the LXC containers resources on Proxmox hosts, with or without AI.
-- [Proxmox-Enhanced-Configuration-Utility (PECU)](https://github.com/Danilop95/Proxmox-Enhanced-Configuration-Utility) - Proxmox Scripts: Repos Update and GPU Passthrough
-- [Promxox-Knockoff-Vapps](https://github.com/ryanq47/Proxmox-Knockoff-Vapps) - A pool-based control plane for ProxmoxVE that mimics "VAPP" functionality
-- [LXC AutoScale](https://github.com/fabriziosalmi/proxmox-lxc-autoscale) - Resource management daemon specifically designed for Proxmox environments. It automatically adjusts CPU and memory allocations with no downtime and can clone LXC containers based on real-time usage metrics and predefined thresholds.
-- [Proxmox VM Autoscale](https://github.com/fabriziosalmi/proxmox-vm-autoscale) - Service that dynamically adjusts your Proxmox virtual machine (VM) resources (CPU cores, RAM) based on real-time metrics and user-defined thresholds.
-- [ProxLB](https://github.com/gyptazy/ProxLB) - Application created to optimize the distribution of virtual machines (VMs) across Proxmox cluster nodes for significantly enhancing efficiency and performance.
-- [Proxmox VE Helper-Scripts](https://github.com/community-scripts/ProxmoxVE) - Community-driven initiative that simplifies the setup of Proxmox Virtual Environment (VE).
-
-## Mobile Apps Android
-- [Proxmox VE](https://play.google.com/store/apps/details?id=com.proxmox.app.pve_flutter_frontend) - Manage virtual machines, containers, hosts, and clusters. 
-- [ProxMate Backup](https://play.google.com/store/apps/details?id=com.itss.proxmatebackup) - Manage Proxmox Backup Servers.
-- [ProxMate Proxmoxm VE](https://play.google.com/store/apps/details?id=itss.proxmate.ios) - Manage Proxmox VE.
+  ![Proxmox VE Banner](https://www.proxmox.com/images/proxmox/Proxmox-logo-800.png)
   
-##  Mobile Apps iOS
-- [ProxMobo: Proxmox VE & PBS Management](https://proxmobo.app/) - Powerful monitoring and management app for Proxmox VE and Proxmox Backup Server.
-- [ProxMan](https://proxman.app) - Application designed for managing Proxmox VE virtualization infrastructure and Proxmox Backup Server environments.
-- [ProxMate iOS](https://apps.apple.com/it/app/proxmate/id6470526961) - Manage your Proxmox Server.
-- [ProxMate Backup](https://apps.apple.com/de/app/proxmate-backup/id6618157722) - Manage Proxmox Backup Servers.
+  <h3>🌟 The Ultimate Collection of Proxmox VE Resources 🌟</h3>
+  
+  [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+  [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square)](http://creativecommons.org/publicdomain/zero/1.0/)
+  [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square&logo=github)](https://github.com/Corsinvest/awesome-proxmox-ve/issues)
+  [![Stars](https://img.shields.io/github/stars/Corsinvest/awesome-proxmox-ve?style=flat-square&logo=github)](https://github.com/Corsinvest/awesome-proxmox-ve)
+  [![Forks](https://img.shields.io/github/forks/Corsinvest/awesome-proxmox-ve?style=flat-square&logo=github)](https://github.com/Corsinvest/awesome-proxmox-ve/fork)
+  
+  <p><em>A comprehensive collection of <strong>AWESOME</strong> <a href="https://pve.proxmox.com">Proxmox VE</a> resources including documentation, tools, tutorials, and community contributions.</em></p>
+  
+  <p>⭐ <strong>Want to contribute?</strong> We welcome pull requests, suggestions, and additions! ⭐</p>
+  
+</div>
 
-## Videos
-- [Resizing Virtual Hard Drives in Proxmox](https://www.youtube.com/watch?v=hRP7u3QPNOM)
-- [Creating a Ubuntu LXC in Proxmox for Docker](https://www.youtube.com/watch?v=1EYAGl96dZY&t)
-- [Proxmox 6.1 and 6.2 PCIe Passthrough](https://www.youtube.com/watch?v=_fkKIMF3HZw)
-- [Proxmox Monitoring Tools: InfluxDB2 + Grafana](https://www.youtube.com/watch?v=f2eyVfCTLi0)
+---
 
+## 📖 About This Collection
 
-# License
+> 🚀 **Whether you're a beginner or an advanced user**, this curated list will help you make the most of your Proxmox Virtual Environment. From getting started guides to enterprise-grade tools, everything you need is here!
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+<div align="center">
 
-This project is not affiliated with Proxmox, which is free software distributed under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) (aGPLv3).
+| 🎯 **Quick Navigation** |
+|---|
+| **[🚀 Getting Started](#-getting-started)** • **[🔧 API & SDKs](#-api--sdks)** • **[📚 Documentation](#-documentation--learning)** • **[📊 Monitoring](#-monitoring--analytics)** |
+| **[💾 Backup](#-backup-solutions)** • **[🛠️ Tools](#-tools--utilities)** • **[📱 Mobile Apps](#-mobile-applications)** • **[🗣️ Community](#-community--support)** |
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+<details>
+<summary>🗂️ <strong>Click to expand full table of contents</strong></summary>
+
+- [🚀 Getting Started](#-getting-started)
+- [🔧 API & SDKs](#-api--sdks)
+- [📚 Documentation & Learning](#-documentation--learning)
+- [📝 Articles & Tutorials](#-articles--tutorials)
+- [📊 Monitoring & Analytics](#-monitoring--analytics)
+- [💾 Backup Solutions](#-backup-solutions)
+- [🗄️ Storage Solutions](#-storage-solutions)
+- [🛠️ Tools & Utilities](#-tools--utilities)
+- [📱 Mobile Applications](#-mobile-applications)
+- [🎥 Video Resources](#-video-resources)
+- [🗣️ Community & Support](#-community--support)
+- [🌟 Contributing](#-contributing)
+
+</details>
+
+---
+
+## 🚀 Getting Started
+
+<div align="center">
+  <img src="https://img.shields.io/badge/NEW%20USER-START%20HERE-blue?style=for-the-badge&logo=rocket" alt="New User Start Here">
+</div>
+
+### 📋 Essential Resources
+
+| Resource | Description | Links |
+|----------|-------------|--------|
+| 📖 **Official Documentation** | Complete official documentation | [📚 Docs](https://pve.proxmox.com/pve-docs/) |
+| 🌐 **Wiki** | Community-maintained wiki with examples | [🔗 Wiki](https://pve.proxmox.com) |
+| 💻 **System Requirements** | Hardware requirements and compatibility | [📋 Requirements](https://pve.proxmox.com/pve-docs/chapter-pve-installation.html#system_requirements) |
+| 🛠️ **Installation Guide** | Step-by-step installation instructions | [📝 Guide](https://pve.proxmox.com/pve-docs/chapter-pve-installation.html) |
+
+### 🏃‍♂️ Quick Start Guides
+
+```mermaid
+graph LR
+    A[📦 Install Proxmox] --> B[⚙️ Post-Install Config]
+    B --> C[🌐 Network Setup]
+    C --> D[🖥️ Web Interface]
+    D --> E[🎉 Ready to Use!]
+```
+
+- **[🎯 First Steps](https://pve.proxmox.com/pve-docs/chapter-sysadmin.html)** - Post-installation configuration
+- **[🖥️ Web Interface](https://pve.proxmox.com/pve-docs/chapter-gui.html)** - Understanding the management interface
+- **[🌐 Network Configuration](https://pve.proxmox.com/pve-docs/chapter-sysadmin.html#sysadmin_network_configuration)** - Setting up networking
+
+---
+
+## 🔧 API & SDKs
+
+<div align="center">
+  <img src="https://img.shields.io/badge/API-INTEGRATION-orange?style=for-the-badge&logo=api" alt="API Integration">
+</div>
+
+### 🌐 Official API
+
+| Resource | Description |
+|----------|-------------|
+| 📚 **[Proxmox VE API](https://pve.proxmox.com/wiki/Proxmox_VE_API)** | Official API documentation |
+| 🔍 **[API Documentation](https://pve.proxmox.com/pve-docs/api-viewer/index.html)** | Interactive API explorer |
+
+### 💻 Language-Specific Libraries
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🐹 **Go**
+- **[proxmox-api-go](https://github.com/Telmate/proxmox-api-go)** <br> Go client library for Proxmox API
+
+#### 🟣 **.NET / C#**
+- **[cv4pve-api-dotnet](https://github.com/Corsinvest/cv4pve-api-dotnet)** <br> Official .NET client library
+- **[ProxmoxSharp](https://github.com/ionelanton/ProxmoxSharp)** <br> Alternative C# API client
+
+#### 🐘 **PHP**
+- **[cv4pve-api-php](https://github.com/Corsinvest/cv4pve-api-php)** <br> Official PHP client library
+- **[ProxmoxVE](https://github.com/ZzAntares/ProxmoxVE)** <br> PHP 5.5+ library for Proxmox API
+- **[pve2-api-php-client](https://github.com/CpuID/pve2-api-php-client)** <br> Legacy PHP client for Proxmox 2.0
+
+#### ☕ **Java**
+- **[cv4pve-api-java](https://github.com/Corsinvest/cv4pve-api-java)** <br> Official Java client library
+- **[pve2-api-java](https://github.com/Elbandi/pve2-api-java)** <br> Java client for Proxmox 2.0
+
+</td>
+<td width="50%">
+
+#### 🐍 **Python**
+- **[Proxmoxer](https://pypi.org/project/proxmoxer/)** <br> Popular Python wrapper (HTTP and SSH)
+- **[pyproxmox](https://pypi.org/project/pyproxmox/)** <br> Alternative Python wrapper
+- **[Proxmoxia](https://github.com/baseblack/Proxmoxia)** <br> Another Python REST API wrapper
+
+#### 🐪 **Perl**
+- **[Net-Proxmox-VE](https://metacpan.org/release/DJZORT/Net-Proxmox-VE-0.006)** <br> Pure Perl API client
+- **[Official Perl API](https://git.proxmox.com/?p=pve-apiclient.git;a=summary)** <br> Official Proxmox maintained Perl API
+
+#### 🟢 **Node.js**
+- **[Proxmox](https://www.npmjs.com/package/proxmox)** <br> Node.js Proxmox client
+- **[cv4pve-api-javascript](https://github.com/Corsinvest/cv4pve-api-javascript)** <br> Official JavaScript client
+
+#### 🔵 **PowerShell**
+- **[cv4pve-api-powershell](https://github.com/Corsinvest/cv4pve-api-powershell)** <br> PowerShell module for Proxmox API
+- **[PowerShell Gallery](https://www.powershellgallery.com/packages/Corsinvest.ProxmoxVE.Api/)** <br> CmdLet for PowerShell to manage Proxmox VE
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📚 Documentation & Learning
+
+<div align="center">
+  <img src="https://img.shields.io/badge/LEARN-PROXMOX-green?style=for-the-badge&logo=book" alt="Learn Proxmox">
+</div>
+
+### 📖 Official Resources
+
+| Type | Resource | Description |
+|------|----------|-------------|
+| 📋 | **[Administrator Guide](https://pve.proxmox.com/pve-docs/pve-admin-guide.html)** | Comprehensive administration guide |
+| 📚 | **[Reference Manual](https://pve.proxmox.com/pve-docs/)** | Complete reference documentation |
+| ❓ | **[FAQ](https://pve.proxmox.com/wiki/FAQ)** | Frequently asked questions |
+| 🌐 | **[Official Wiki](https://pve.proxmox.com/wiki/Main_Page)** | Official Proxmox VE Wiki |
+
+### 🎓 Community Resources & Training
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| **[Thomas Krenn Wiki](https://www.thomas-krenn.com/de/wiki/Kategorie:Proxmox)** | 📖 Community | Several articles and howtos |
+| **[Proxmox Training](https://github.com/ondrejsika/proxmox-training)** | 🎓 Course | Community training materials |
+| **[Proxmox Ebook](https://www.virtualizationhowto.com/2024/03/proxmox-ebook-free-download-for-home-labs/)** | 📚 Free Book | Free ebook for home labs |
+
+---
+
+## 📝 Articles & Tutorials
+
+<div align="center">
+  <img src="https://img.shields.io/badge/TUTORIALS-GUIDES-purple?style=for-the-badge&logo=graduation-cap" alt="Tutorials & Guides">
+</div>
+
+### 🔧 Configuration & Setup
+
+<details>
+<summary><strong>🐳 Docker & Container Guides</strong></summary>
+
+- **[🐳 Docker on Proxmox with ZFS](https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/)** - Setting up Docker with ZFS storage
+- **[📦 Ubuntu LXC for Docker](https://www.youtube.com/watch?v=1EYAGl96dZY&t)** - Container setup guide
+
+</details>
+
+<details>
+<summary><strong>🪟 Operating System Optimization</strong></summary>
+
+- **[🪟 Windows VM Optimization](https://davejansen.com/recommended-settings-windows-10-2016-2018-2019-vm-proxmox/)** - Optimizing Windows VMs on Proxmox
+- **[🍎 macOS Installation Guide](https://www.nicksherlock.com/2021/10/installing-macos-12-monterey-on-proxmox-7/)** - Installing macOS Monterey on Proxmox 7
+
+</details>
+
+### 🚀 Advanced Topics
+
+| Topic | Guide | Difficulty |
+|-------|--------|------------|
+| **High Availability** | [Corosync QDevice in Docker](https://raymii.org/s/tutorials/Proxmox_VE_7_Corosync_QDevice_in_Docker.html) | 🔴 Advanced |
+| **Migration** | [VMware Migration Guide](https://www.virtualizationhowto.com/2024/03/proxmox-new-import-wizard-for-migrating-vmware-esxi-vms/) | 🟡 Intermediate |
+| **Automation** | [Automatic Snapshots](https://techlr.de/proxmox-automatische-snapshots-einrichten/) | 🟢 Beginner |
+
+---
+
+## 📊 Monitoring & Analytics
+
+<div align="center">
+  <img src="https://img.shields.io/badge/MONITORING-ANALYTICS-red?style=for-the-badge&logo=chart-line" alt="Monitoring & Analytics">
+</div>
+
+### 📈 Complete Monitoring Solutions
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🌟 **Popular Solutions**
+- **[📊 InfluxDB + Grafana](https://www.linuxsysadmins.com/monitoring-proxmox-with-grafana/)** <br> Complete setup with dashboards
+- **[🔍 CheckMK](https://checkmk.com/blog/proxmox-monitoring)** <br> Enterprise monitoring solution
+- **[⚡ Netdata](https://www.netdata.cloud/integrations/data-collection/containers-and-vms/proxmox-ve/)** <br> Real-time performance monitoring
+- **[🛡️ Zabbix](https://www.zabbix.com/de/integrations/proxmox)** <br> Enterprise monitoring platform
+
+</td>
+<td width="50%">
+
+#### 🔬 **Specialized Tools**
+- **[📈 Prometheus Exporter](https://github.com/prometheus-pve/prometheus-pve-exporter)** <br> Export metrics to Prometheus
+- **[⚡ VictoriaMetrics](https://victoriametrics.com/blog/proxmox-monitoring-with-dbaas/)** <br> High-performance time series DB
+- **[📊 PandoraFMS](https://pandorafms.com/blog/proxmox-ve-monitoring/)** <br> IT infrastructure monitoring
+- **[📡 SNMP Scripts](https://github.com/in-famous-raccoon/proxmox-snmp)** <br> Custom SNMP monitoring
+
+</td>
+</tr>
+</table>
+
+### 📊 Performance Analysis
+
+- **[📈 LPAR2RRD](https://lpar2rrd.com/Proxmox-monitoring.php)** - Agentless server performance monitoring
+
+---
+
+## 💾 Backup Solutions
+
+<div align="center">
+  <img src="https://img.shields.io/badge/BACKUP-PROTECTION-yellow?style=for-the-badge&logo=shield" alt="Backup & Protection">
+</div>
+
+### 🏢 Enterprise Solutions
+
+<table>
+<tr>
+<td colspan="2" align="center"><strong>🌟 Top Enterprise Backup Solutions</strong></td>
+</tr>
+<tr>
+<td width="50%">
+
+**🥇 Official & Popular**
+- **[🏆 Proxmox Backup Server](https://proxmox.com/en/products/proxmox-backup-server/overview)** <br> 🔥 Official enterprise solution
+- **[💼 Veeam Backup](https://www.veeam.com/blog/veeam-backup-for-proxmox.html)** <br> 🌟 Industry-leading backup
+- **[🚀 NAKIVO](https://www.nakivo.com/proxmox-backup/)** <br> ⚡ Comprehensive disaster recovery
+- **[🛡️ BDRSuite](https://www.bdrsuite.com/proxmox-backup/)** <br> 🎯 Agentless VM backup
+
+</td>
+<td width="50%">
+
+**🔧 Specialized Solutions**
+- **[🏢 Bacula Enterprise](https://www.baculasystems.com/corporate-data-backup-software-solutions/)** <br> 💎 Enterprise data backup
+- **[🔐 Commvault](https://www.commvault.com/use-cases/backup-and-recovery)** <br> 🛡️ Complete data protection
+- **[⚙️ Catalogic DPX](https://www.catalogicsoftware.com/portfolio/proxmox/)** <br> 🚀 Agentless backup & recovery
+- **[🔄 SEP sesam](https://www.sep.de/solutions/proxmox-hypervisor/)** <br> 💼 Efficient VM protection
+
+</td>
+</tr>
+</table>
+
+### 📊 Monitoring & Reporting
+
+| Solution | Feature | Best For |
+|----------|---------|----------|
+| **[🦅 EAGLE](https://www.backup-eagle.com/product/proxmox)** | Centralized monitoring | 🏢 Enterprise |
+| **[🔒 Vinchin](https://www.vinchin.com/proxmox-backup.html)** | Secure data protection | 🛡️ Security-focused |
+| **[💾 Storware](https://storware.eu/solutions/virtual-machine-backup-and-recovery/proxmox-ve-backup-and-recovery/)** | VM/Container backup | 🔄 Comprehensive |
+
+---
+
+## 🗄️ Storage Solutions
+
+<div align="center">
+  <img src="https://img.shields.io/badge/STORAGE-SOLUTIONS-indigo?style=for-the-badge&logo=database" alt="Storage Solutions">
+</div>
+
+### 🏢 Enterprise Storage Integration
+
+| Vendor | Solution | Type | Integration |
+|--------|----------|------|-------------|
+| 🔷 **Dell** | [PowerStore](https://infohub.delltechnologies.com/en-us/t/dell-powerstore-deploying-proxmox-virtual-environment-white-paper/) | Block Storage | White Paper Guide |
+| 🟢 **NetApp** | [ONTAP](https://docs.netapp.com/us-en/netapp-solutions/proxmox/proxmox-ontap.html) | Multi-Protocol | Official Integration |
+| ⚪ **Pure Storage** | [Plugin](https://github.com/kolesa-team/pve-purestorage-plugin) | iSCSI/FC | Community Plugin |
+
+### 🔄 High Availability Storage
+
+- **[⚡ LINSTOR with DRBD](https://linbit.com/blog/setting-up-highly-available-storage-for-proxmox-using-linstor-the-linbit-gui/)** - Highly available storage using LINSTOR and LINBIT GUI
+
+---
+
+## 🛠️ Tools & Utilities
+
+<div align="center">
+  <img src="https://img.shields.io/badge/TOOLS-UTILITIES-teal?style=for-the-badge&logo=tools" alt="Tools & Utilities">
+</div>
+
+### 🎛️ Management Platforms
+
+<table>
+<tr>
+<td width="33%">
+
+**🖥️ Web Interfaces**
+- **[🌐 CV4PVE-ADMIN](https://corsinvest.it/cv4pve-admin-proxmox/)**
+- **[🚀 Convoy](https://convoypanel.com/)**
+- **[🔄 MultiPortal](https://multiportal.io/)**
+
+</td>
+<td width="33%">
+
+**💼 VPS Control Panels**
+- **[💳 WHMCS Module](https://www.modulesgarden.com/products/whmcs/proxmox-ve-vps)**
+- **[🏢 SolusVM](https://solusvm.com/)**
+- **[⚙️ Virtualizor](https://www.virtualizor.com/)**
+
+</td>
+<td width="33%">
+
+**📱 Management Tools**
+- **[📋 ProxMenux](https://github.com/MacRimi/ProxMenux)**
+- **[🏷️ proxtagger](https://github.com/reginleif88/proxtagger)**
+- **[🔧 PVE-mods](https://github.com/Meliox/PVE-mods)**
+
+</td>
+</tr>
+</table>
+
+### 🚀 Official CV4PVE Tools Suite
+
+<div align="center">
+  <strong>🏆 Professional Tools by Corsinvest</strong>
+</div>
+
+| Tool | Purpose | GitHub |
+|------|---------|--------|
+| **[🌐 cv4pve-admin](https://github.com/Corsinvest/cv4pve-admin)** | Web administration interface | ⭐ |
+| **[📸 cv4pve-autosnap](https://github.com/Corsinvest/cv4pve-autosnap)** | Automatic snapshot management | ⭐ |
+| **[💻 cv4pve-cli](https://github.com/Corsinvest/cv4pve-cli)** | Command-line interface tools | ⭐ |
+| **[🔍 cv4pve-diag](https://github.com/Corsinvest/cv4pve-diag)** | Diagnostic and troubleshooting | ⭐ |
+| **[📊 cv4pve-metric](https://github.com/Corsinvest/cv4pve-metric)** | Metrics collection and export | ⭐ |
+
+### ⚡ Automation & Scaling
+
+<div align="center">
+  <img src="https://img.shields.io/badge/AUTO-SCALING-success?style=flat-square&logo=trending-up" alt="Auto Scaling">
+</div>
+
+- **[📈 Proxmox LXC AutoScale](https://github.com/fabriziosalmi/proxmox-lxc-autoscale)** - Automatic container resource scaling
+- **[🖥️ Proxmox VM Autoscale](https://github.com/fabriziosalmi/proxmox-vm-autoscale)** - Dynamic VM resource adjustment  
+- **[⚖️ ProxLB](https://github.com/gyptazy/ProxLB)** - Load balancing for Proxmox clusters
+
+### 🏗️ Infrastructure as Code
+
+| Tool | Type | Description |
+|------|------|-------------|
+| **[🔧 Terraform Provider](https://github.com/bpg/terraform-provider-proxmox)** | IaC | Terraform/OpenTofu provider |
+| **[🤖 Ansible Module](https://docs.ansible.com/ansible/latest/collections/community/general/proxmox_module.html)** | Automation | Ansible module for management |
+| **[☸️ Cluster API Provider](https://github.com/ionos-cloud/cluster-api-provider-proxmox)** | Kubernetes | K8s-style APIs for clusters |
+
+### 🛠️ Utility Scripts & Extensions
+
+<details>
+<summary><strong>📦 Utility Scripts Collection</strong></summary>
+
+- **[🧰 proxmox-tools](https://github.com/marrobHD/proxmox-tools)** - Collection of useful Proxmox tools
+- **[🔄 proxmox-vm-to-ct](https://github.com/thushan/proxmox-vm-to-ct)** - Convert VMs to containers
+- **[⚡ Proxmox-WoL](https://github.com/Aizen-Barbaros/Proxmox-WoL)** - Wake on LAN functionality
+- **[💻 pve-cli-utils](https://github.com/aheahe/pve-cli-utils)** - Command-line utilities
+- **[⚙️ PECU](https://github.com/Danilop95/Proxmox-Enhanced-Configuration-Utility)** - Configuration utility
+
+</details>
+
+<details>
+<summary><strong>🌐 Browser Extensions</strong></summary>
+
+- **[📋 Proxmox Paste](https://gist.github.com/amunchet/4cfaf0274f3d238946f9f8f94fa9ee02)** - Tampermonkey script for UI clipboard
+
+</details>
+
+---
+
+## 📱 Mobile Applications
+
+<div align="center">
+  <img src="https://img.shields.io/badge/MOBILE-APPS-blue?style=for-the-badge&logo=mobile" alt="Mobile Apps">
+</div>
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+### 🤖 **Android Apps**
+
+| App | Features |
+|-----|----------|
+| **[📱 Proxmox VE (Official)](https://play.google.com/store/apps/details?id=com.proxmox.app.pve_flutter_frontend)** | Full management |
+| **[👁️ ProxMon](https://play.google.com/store/apps/details?id=dev.reimu.proxmon)** | Status monitoring |
+| **[🔧 ProxMate VE](https://play.google.com/store/apps/details?id=itss.proxmate.ios)** | VM management |
+| **[💾 ProxMate Backup](https://play.google.com/store/apps/details?id=com.itss.proxmatebackup)** | Backup management |
+
+</td>
+<td width="50%" align="center">
+
+### 🍎 **iOS Apps**
+
+| App | Features |
+|-----|----------|
+| **[🚀 ProxMobo](https://proxmobo.app/)** | VE & PBS management |
+| **[💼 ProxMan](https://proxman.app)** | Professional management |
+| **[📱 ProxMate iOS](https://apps.apple.com/de/app/proxmate/id6470526961)** | Server management |
+| **[💾 ProxMate Backup](https://apps.apple.com/de/app/proxmate-backup/id6618157722)** | Backup servers |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎥 Video Resources
+
+<div align="center">
+  <img src="https://img.shields.io/badge/VIDEO-TUTORIALS-red?style=for-the-badge&logo=youtube" alt="Video Tutorials">
+</div>
+
+### 🎬 Featured Tutorials
+
+| Tutorial | Duration | Difficulty |
+|----------|----------|------------|
+| **[💿 Resizing Virtual Hard Drives](https://www.youtube.com/watch?v=hRP7u3QPNOM)** | ~15 min | 🟢 Beginner |
+| **[🐳 Ubuntu LXC for Docker](https://www.youtube.com/watch?v=1EYAGl96dZY&t)** | ~30 min | 🟡 Intermediate |
+| **[⚡ PCIe Passthrough](https://www.youtube.com/watch?v=_fkKIMF3HZw)** | ~45 min | 🔴 Advanced |
+| **[📊 Monitoring Setup](https://www.youtube.com/watch?v=f2eyVfCTLi0)** | ~25 min | 🟡 Intermediate |
+
+### 🎯 Content Creators
+
+| Creator | Specialty |
+|---------|-----------|
+| **[⚡ Electronics Wizardry](https://www.youtube.com/@ElectronicsWizardry)** | Hardware & Proxmox |
+| **[🚀 Techno Tim](https://docs.technotim.live/tags/proxmox/)** | Homelab & Enterprise |
+
+---
+
+## 🗣️ Community & Support
+
+<div align="center">
+  <img src="https://img.shields.io/badge/COMMUNITY-SUPPORT-brightgreen?style=for-the-badge&logo=people-group" alt="Community & Support">
+</div>
+
+### 🏛️ Official Channels
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+**💬 Discussion**
+- **[🏛️ Official Forum](https://forum.proxmox.com/)**
+- **[📧 User Mailing List](https://www.mail-archive.com/pve-user@pve.proxmox.com/)**
+
+</td>
+<td width="33%" align="center">
+
+**👨‍💻 Development**
+- **[🔧 Developer Git](https://git.proxmox.com/?o=age)**
+- **[🐛 Bug Tracker](https://bugzilla.proxmox.com/)**
+- **[📧 Dev Mailing List](https://www.mail-archive.com/pve-devel@pve.proxmox.com/index.html)**
+
+</td>
+<td width="33%" align="center">
+
+**🛠️ Tools & Metrics**
+- **[🔧 cv4pve-tools](https://www.cv4pve-tools.com)**
+- **[📊 cv4pve-metrics](https://metrics.cv4pve-tools.com)**
+
+</td>
+</tr>
+</table>
+
+### 🌐 Social Media & Forums
+
+| Platform | Community |
+|----------|-----------|
+| **[📱 Reddit r/Proxmox](https://www.reddit.com/r/Proxmox/)** | General discussions |
+| **[📱 Reddit r/ProxmoxVE](https://www.reddit.com/r/ProxmoxVE/)** | Proxmox VE specific |
+| **[📘 Facebook Group](https://www.facebook.com/groups/proxmox/)** | Community support |
+
+### 📝 Blogs & Content
+
+| Blog | Specialty |
+|------|-----------|
+| **[💻 pveCLI](https://pvecli.xuan2host.com/)** | CLI guides & tips |
+| **[🏠 ServeTheHome](https://www.servethehome.com/tag/proxmox-ve/)** | Hardware & enterprise |
+
+---
+
+## 🌟 Contributing
+
+<div align="center">
+  <img src="https://img.shields.io/badge/CONTRIBUTE-WELCOME-gold?style=for-the-badge&logo=heart" alt="Contributions Welcome">
+</div>
+
+### 🤝 How to Contribute
+
+<div align="center">
+
+```mermaid
+graph TD
+    A[💡 Have an Idea?] --> B{What Type?}
+    B -->|🔗 New Resource| C[Check if exists]
+    B -->|🐛 Fix/Update| D[Create Issue]
+    B -->|📝 Documentation| E[Improve docs]
+    C --> F[Add to appropriate section]
+    D --> G[Submit Pull Request]
+    E --> G
+    F --> G
+    G --> H[🎉 Review & Merge]
+```
+
+</div>
+
+### ✅ Contribution Guidelines
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🎯 **What We Accept**
+- ✅ High-quality, maintained resources
+- ✅ Clear, helpful descriptions  
+- ✅ Working links and demos
+- ✅ Proper categorization
+- ✅ No duplicate entries
+
+</td>
+<td width="50%">
+
+#### 📝 **Submission Format**
+- 📝 Use existing markdown format
+- 🔗 Test all links before submitting
+- 📋 Include brief, informative descriptions
+- 🏷️ Add appropriate badges/icons
+- 📊 Include metrics when available
+
+</td>
+</tr>
+</table>
+
+### 🚀 Quick Contribution Steps
+
+1. **🍴 Fork** this repository
+2. **✏️ Make** your changes following our format
+3. **🧪 Test** all links and formatting
+4. **📤 Submit** a pull request with clear description
+5. **⏳ Wait** for review and feedback
+
+<div align="center">
+  <strong>🎁 Quality contributions get priority review! 🎁</strong>
+</div>
+
+---
+
+## 📄 License & Legal
+
+<div align="center">
+  
+  [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+  
+  **This work is licensed under Creative Commons Zero v1.0 Universal**
+  
+  🆓 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+  
+</div>
+
+---
+
+## ⚠️ Disclaimer
+
+<div align="center">
+  
+  <table>
+  <tr>
+  <td align="center">
+  
+  ⚠️ **Important Notice** ⚠️
+  
+  This project is **not affiliated** with Proxmox Server Solutions GmbH.
+  
+  Proxmox VE is free software distributed under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) (AGPLv3).
+  
+  </td>
+  </tr>
+  </table>
+  
+</div>
+
+---
+
+<div align="center">
+  
+  ## 🎉 Thank You for Visiting! 🎉
+  
+  <img src="https://img.shields.io/badge/MADE%20WITH-❤️%20BY%20COMMUNITY-red?style=for-the-badge" alt="Made with love">
+  
+  ### ⭐ **If this list helped you, please consider giving it a star!** ⭐
+  
+  <a href="https://github.com/Corsinvest/awesome-proxmox-ve">
+    <img src="https://img.shields.io/badge/⭐%20STAR%20THIS%20REPO-FFD700?style=for-the-badge&logo=github" alt="Star this repo">
+  </a>
+  
+  ---
+  
+  **💖 Special Thanks To:**
+  - 🏢 **Corsinvest** for maintaining this collection
+  - 👥 **All contributors** who make this possible
+  - 🌟 **Proxmox community** for sharing knowledge
+  - 🚀 **You** for being part of this journey!
+  
+  ---
+  
+  <details>
+  <summary><strong>📊 Repository Stats</strong></summary>
+  
+  | Metric | Description |
+  |--------|-------------|
+  | 🔗 **Total Resources** | Comprehensive collection |
+  | 🏷️ **Categories** | Well-organized sections |
+  | 🌍 **Languages Supported** | Multiple programming languages |
+  | 📱 **Mobile Apps** | Cross-platform applications |
+  | 🛠️ **Tools & Utilities** | Extensive tooling ecosystem |
+  | 💾 **Backup Solutions** | Enterprise-grade options |
+  
+  </details>
+  
+  ---
+  
+  <sub>📅 Last updated: August 2025 | 🔄 Continuously maintained by the community</sub>
+  
+</div>
