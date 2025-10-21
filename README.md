@@ -369,6 +369,7 @@ graph LR
 - **[📈 Proxmox LXC AutoScale](https://github.com/fabriziosalmi/proxmox-lxc-autoscale)** - Automatic container resource scaling
 - **[🖥️ Proxmox VM Autoscale](https://github.com/fabriziosalmi/proxmox-vm-autoscale)** - Dynamic VM resource adjustment  
 - **[⚖️ ProxLB](https://github.com/gyptazy/ProxLB)** - Load balancing for Proxmox clusters
+- **[🤖️ Proxmox-GitOps](https://github.com/stevius10/Proxmox-GitOps)** - Container Automation Framework for Proxmox VE
 
 ### 🏗️ Infrastructure as Code
 
