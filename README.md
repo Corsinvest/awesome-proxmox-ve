@@ -341,6 +341,7 @@ graph LR
 - **[📋 ProxMenux](https://github.com/MacRimi/ProxMenux)**
 - **[🏷️ proxtagger](https://github.com/reginleif88/proxtagger)**
 - **[🔧 PVE-mods](https://github.com/Meliox/PVE-mods)**
+- **[🧰 pvetui](https://github.com/devnullvoid/pvetui)**
 
 </td>
 </tr>
