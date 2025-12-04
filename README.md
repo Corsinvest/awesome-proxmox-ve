@@ -325,6 +325,7 @@ graph LR
 - **[🌐 CV4PVE-ADMIN](https://corsinvest.it/cv4pve-admin-proxmox/)**
 - **[🚀 Convoy](https://convoypanel.com/)**
 - **[🔄 MultiPortal](https://multiportal.io/)**
+- **[🔄 Proxmox DataCenter](https://www.proxmox.com/en/products/proxmox-datacenter-manager/overview)**
 
 </td>
 <td width="33%">
