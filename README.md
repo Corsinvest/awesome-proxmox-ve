@@ -521,25 +521,6 @@ graph LR
   <img src="https://img.shields.io/badge/CONTRIBUTE-WELCOME-gold?style=for-the-badge&logo=heart" alt="Contributions Welcome">
 </div>
 
-### 🤝 How to Contribute
-
-<div align="center">
-
-```mermaid
-graph TD
-    A[💡 Have an Idea?] --> B{What Type?}
-    B -->|🔗 New Resource| C[Check if exists]
-    B -->|🐛 Fix/Update| D[Create Issue]
-    B -->|📝 Documentation| E[Improve docs]
-    C --> F[Add to appropriate section]
-    D --> G[Submit Pull Request]
-    E --> G
-    F --> G
-    G --> H[🎉 Review & Merge]
-```
-
-</div>
-
 ### ✅ Contribution Guidelines
 
 <table>
