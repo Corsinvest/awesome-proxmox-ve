@@ -634,8 +634,3 @@ graph LR
   
   </details>
   
-  ---
-  
-  <sub>📅 Last updated: August 2025 | 🔄 Continuously maintained by the community</sub>
-  
-</div>
