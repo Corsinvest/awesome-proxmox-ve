@@ -74,14 +74,6 @@
 
 ### 🏃‍♂️ Quick Start Guides
 
-```mermaid
-graph LR
-    A[📦 Install Proxmox] --> B[⚙️ Post-Install Config]
-    B --> C[🌐 Network Setup]
-    C --> D[🖥️ Web Interface]
-    D --> E[🎉 Ready to Use!]
-```
-
 - **[🎯 First Steps](https://pve.proxmox.com/pve-docs/chapter-sysadmin.html)** - Post-installation configuration
 - **[🖥️ Web Interface](https://pve.proxmox.com/pve-docs/chapter-gui.html)** - Understanding the management interface
 - **[🌐 Network Configuration](https://pve.proxmox.com/pve-docs/chapter-sysadmin.html#sysadmin_network_configuration)** - Setting up networking
