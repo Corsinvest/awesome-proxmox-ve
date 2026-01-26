@@ -120,6 +120,7 @@
 - [VictoriaMetrics](https://victoriametrics.com/blog/proxmox-monitoring-with-dbaas/)
 - [Zabbix](https://www.zabbix.com/de/integrations/proxmox)
 
+- [What Broke Today](https://whatbroke.today) - AI-powered outage aggregator tracking 100+ cloud services with real-time Telegram alerts
 ---
 
 ## Backup Tools
