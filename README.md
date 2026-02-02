@@ -248,7 +248,7 @@
 - [Falco Security - Runtime Linux Security](https://falco.org/)
 - [Guida Firewall Proxmox ufficiale](https://pve.proxmox.com/pve-docs/pve-firewall.8.html)
 - [fail2ban per Proxmox (HowToForge)](https://www.howtoforge.com/tutorial/how-to-protect-proxmox-ve-with-fail2ban-and-ufw/)
-- [Zelogx (Multiverse Secure Lab)MSL Setup](https://github.com/zelogx/msl-setup)
+- [Zelogx MSL Setup - The Multi-tenant Enabler](https://github.com/zelogx/msl-setup)
 
 ---
 
