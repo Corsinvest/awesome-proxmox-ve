@@ -258,6 +258,7 @@
 - [Reddit Proxmox VE](https://www.reddit.com/r/Proxmox/)
 - [Telegram Proxmox Italia](https://t.me/ProxmoxVE_Italia)
 - [Discord Proxmox Global (non ufficiale)](https://discord.gg/WvG4Yc0)
+- [Discord Proxcord (non ufficiale)](https://discord.gg/w9Y5UPz4FG)
 - [Facebook Proxmox Group](https://www.facebook.com/groups/proxmox/)
 
 ---
