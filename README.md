@@ -209,6 +209,7 @@
 - [Ansible Module - Proxmox VE Cluster](https://docs.ansible.com/ansible/latest/collections/community/general/proxmox_module.html)
 - [Cluster API Provider for Proxmox VE (CAPMOX)](https://github.com/ionos-cloud/cluster-api-provider-proxmox)
 - [LXC AutoScale](https://github.com/fabriziosalmi/proxmox-lxc-autoscale)
+- [osx-proxmox](https://github.com/lucid-fabrics/osx-proxmox-next) - One-command macOS VM automation for Proxmox 9 with TUI wizard, recovery auto-download, and AMD/Intel support.
 - [proxmox-backup](https://github.com/tis24dev/proxmox-backup)
 - [ProxMenux](https://github.com/MacRimi/ProxMenux)
 - [ProxMigrate](https://github.com/AthenaNetworks/ProxMigrate)
