@@ -139,6 +139,7 @@
 - [proxmox-backup](https://github.com/tis24dev/proxmox-backup)
 - [CV4PVE-AUTOSNAP](https://github.com/Corsinvest/cv4pve-autosnap)
   - Automazione snapshot con policy per Proxmox VE.
+- [PBS_Chunk_Checker](https://github.com/VoltKraft/PBS_Chunk_Checker)
 
 ---
 
