@@ -64,40 +64,36 @@
 
 ## CV4PVE Suite
 
-**Suite di strumenti avanzati, ufficiali Corsinvest, per la gestione integrata e multi-piattaforma di Proxmox VE.**
+**Advanced official Corsinvest tools for integrated multi-platform Proxmox VE management.**
 
 - [**CV4PVE-ADMIN**](https://github.com/Corsinvest/cv4pve-admin)  
-  Web administration portal: gestione centralizzata via browser di cluster multipli, utenti/gruppi, metriche, storage, snapshot, firewall, job schedulati e molto altro.
+  Web administration portal: centralized browser-based management of multiple clusters, users/groups, metrics, storage, snapshots, firewall, scheduled jobs and much more.
 - [**CV4PVE-CLI**](https://github.com/Corsinvest/cv4pve-cli)  
-  Interfaccia a riga di comando multipiattaforma avanzata, con centinaia di funzionalità per scripting, automazione, esportazione dati, gestione utenti, report e analisi.
+  Advanced cross-platform command-line interface with hundreds of features for scripting, automation, data export, user management, reports and analysis.
 - [**CV4PVE-AUTOSNAP**](https://github.com/Corsinvest/cv4pve-autosnap)  
-  Gestione automatica degli snapshot, backup differenziali, politiche temporali, rollback.
+  Automated snapshot management, differential backups, time-based policies, rollback.
 - [**CV4PVE-DIAG**](https://github.com/Corsinvest/cv4pve-diag)  
-  Strumenti di diagnostica, troubleshooting, audit di configurazioni e analisi della salute del cluster.
+  Diagnostic tools, troubleshooting, configuration auditing and cluster health analysis.
 - [**CV4PVE-METRIC**](https://github.com/Corsinvest/cv4pve-metric)  
-  Raccolta ed esportazione metriche del cluster in Prometheus e altri sistemi di monitoraggio (alerting, dashboard).
+  Cluster metrics collection and export to Prometheus and other monitoring systems (alerting, dashboards).
 - [**CV4PVE-API**](https://github.com/Corsinvest/cv4pve-api-dotnet)  
-  Client API ufficiale Corsinvest per integrare, sviluppare, personalizzare Proxmox in .NET/C# ([NuGet](https://www.nuget.org/packages/Corsinvest.ProxmoxVE.Api/)).
+  Official Corsinvest API client to integrate, develop and customize Proxmox in .NET/C# ([NuGet](https://www.nuget.org/packages/Corsinvest.ProxmoxVE.Api/)).
 - [**CV4PVE-API-PHP**](https://github.com/Corsinvest/cv4pve-api-php)  
-  Client API e libreria PHP ufficiale per automatizzare Proxmox in ambienti PHP/Composer.
+  Official PHP API client and library for automating Proxmox in PHP/Composer environments.
 - [**CV4PVE-API-JAVASCRIPT**](https://github.com/Corsinvest/cv4pve-api-javascript)  
-  Client Javascript ufficiale per Node.js e frontend (automation, webapp).
+  Official JavaScript client for Node.js and frontend (automation, webapps).
 - [**CV4PVE-API-JAVA**](https://github.com/Corsinvest/cv4pve-api-java)  
-  Client API ufficiale Java.
+  Official Java API client.
 - [**CV4PVE-API-POWERSHELL**](https://github.com/Corsinvest/cv4pve-api-powershell)  
-  Modulo e CmdLet PowerShell ufficiale per gestire Proxmox VE da Windows, Azure DevOps ecc.
+  Official PowerShell module and CmdLets for managing Proxmox VE from Windows, Azure DevOps, etc.
 - [**CV4PVE-BOTGRAM**](https://github.com/Corsinvest/cv4pve-botgram)  
-  Bot di gestione Proxmox via Telegram.
+  Proxmox management bot via Telegram.
 - [**CV4PVE-PEPPER**](https://github.com/Corsinvest/cv4pve-pepper)  
-  Modulo C# per gestione cluster e automazione avanzata.
-- [**CV4PVE-PVE7TO8**](https://github.com/Corsinvest/cv4pve-pve7to8)  
-  Script avanzati per l'upgrade, audit e test migrazione da Proxmox VE 7 a 8.
+  C# module for cluster management and advanced automation.
 
-**Suite online correlata:**
+**Related online suite:**
 - [cv4pve-tools.com](https://www.cv4pve-tools.com)  
-  Portale ufficiale metriche, comparatore, convertitore, strumenti e demo online Corsinvest, documentazione e API reference.
-- [metrics.cv4pve-tools.com](https://metrics.cv4pve-tools.com)  
-  Metriche, benchmark e analisi on-line sulla base delle raccolte dati pubbliche.
+  Official Corsinvest portal for metrics, comparator, converter, online tools and demos, documentation and API reference.
 
 ---
 
@@ -138,7 +134,7 @@
 - [Vinchin Backup & Recovery](https://www.vinchin.com/proxmox-backup.html) [[Trial](https://www.vinchin.com/vinchin-software-documentation-downloads.html)] [[Docs](https://helpcenter.vinchin.com/)]
 - [proxmox-backup](https://github.com/tis24dev/proxmox-backup)
 - [CV4PVE-AUTOSNAP](https://github.com/Corsinvest/cv4pve-autosnap)
-  - Automazione snapshot con policy per Proxmox VE.
+  - Snapshot automation with policies for Proxmox VE.
 - [PBS_Chunk_Checker](https://github.com/VoltKraft/PBS_Chunk_Checker)
 
 ---
@@ -229,7 +225,7 @@
 
 - [ServeTheHome - Proxmox VE Tutorials](https://www.servethehome.com/tag/proxmox-ve/)
 - [Techno Tim - Proxmox Guides (Blog & Video)](https://technotim.live/tags/proxmox/)
-- [Nick Sherlock - macOS su Proxmox](https://www.nicksherlock.com/tag/proxmox/)
+- [Nick Sherlock - macOS on Proxmox](https://www.nicksherlock.com/tag/proxmox/)
 - [VirtualizationHowTo - Proxmox](https://www.virtualizationhowto.com/tag/proxmox-ve/)
 - [The Homelab Wiki - Proxmox Section](https://wiki.homelabos.com/other/proxmox/)
 
@@ -249,18 +245,18 @@
 - [Proxmox Security Best Practices (official)](https://pve.proxmox.com/wiki/Security)
 - [OpenSCAP - Security audit tool](https://www.open-scap.org/)
 - [Falco Security - Runtime Linux Security](https://falco.org/)
-- [Guida Firewall Proxmox ufficiale](https://pve.proxmox.com/pve-docs/pve-firewall.8.html)
-- [fail2ban per Proxmox (HowToForge)](https://www.howtoforge.com/tutorial/how-to-protect-proxmox-ve-with-fail2ban-and-ufw/)
+- [Official Proxmox Firewall Guide](https://pve.proxmox.com/pve-docs/pve-firewall.8.html)
+- [fail2ban for Proxmox (HowToForge)](https://www.howtoforge.com/tutorial/how-to-protect-proxmox-ve-with-fail2ban-and-ufw/)
 
 ---
 
 ## Community, Forum & Social
 
-- [Forum Ufficiale Proxmox](https://forum.proxmox.com/)
+- [Official Proxmox Forum](https://forum.proxmox.com/)
 - [Reddit Proxmox VE](https://www.reddit.com/r/Proxmox/)
-- [Telegram Proxmox Italia](https://t.me/ProxmoxVE_Italia)
-- [Discord Proxmox Global (non ufficiale)](https://discord.gg/WvG4Yc0)
-- [Discord Proxcord (non ufficiale)](https://discord.gg/w9Y5UPz4FG)
+- [Telegram Proxmox Italy](https://t.me/ProxmoxVE_Italia)
+- [Discord Proxmox Global (unofficial)](https://discord.gg/WvG4Yc0)
+- [Discord Proxcord (unofficial)](https://discord.gg/w9Y5UPz4FG)
 - [Facebook Proxmox Group](https://www.facebook.com/groups/proxmox/)
 
 ---
@@ -268,9 +264,9 @@
 ## Utilities & Scripts
 
 - [Proxmox VE Clean Snapshots](https://github.com/Corsinvest/cv4pve-autosnap)
-- [pve-zsync (backup/snaps ZFS)](https://pve.proxmox.com/wiki/PVE-zsync)
+- [pve-zsync (ZFS backup/snapshots)](https://pve.proxmox.com/wiki/PVE-zsync)
 - [Proxmox VE Backup Checker](https://github.com/paulie1231/pve-backup-check)
-- [PVE7to8 - Aggiornamento Major Script](https://github.com/Corsinvest/cv4pve-pve7to8)
+- [PVE7to8 - Major Upgrade Script](https://github.com/Corsinvest/cv4pve-pve7to8)
 - [Proxmox Wake on LAN](https://github.com/Aizen-Barbaros/Proxmox-WoL)
 - [Proxmox Dark Theme (User script)](https://github.com/Weilbyte/PVEDiscordDark)
 - [Proxmox Mail Gateway Custom Themes](https://github.com/IgorG1/PMG-Theme)
@@ -288,27 +284,27 @@
 
 ## YouTube Channels
 
-### Canali Internazionali
-- [Proxmox Server Solutions (Canale ufficiale)](https://www.youtube.com/@ProxmoxServerSolutionsGmbH)  
-  Webinar, release, nuove funzionalità Proxmox.
+### International Channels
+- [Proxmox Server Solutions (Official Channel)](https://www.youtube.com/@ProxmoxServerSolutionsGmbH)  
+  Webinars, releases, new Proxmox features.
 - [ServeTheHome](https://www.youtube.com/c/ServeTheHomeVideo)  
-  Guide Proxmox, hardware, server e storage.
+  Proxmox guides, hardware, servers and storage.
 - [Techno Tim](https://www.youtube.com/c/TechnoTimLive)  
-  Cluster, installazione, backup automatizzati con Proxmox.
+  Cluster setup, installation, automated backups with Proxmox.
 - [Lawrence Systems](https://www.youtube.com/c/LawrenceSystems/search?query=proxmox)  
-  Approfondimenti aziendali, sicurezza e tutorial.
+  Enterprise deep-dives, security and tutorials.
 - [Craft Computing](https://www.youtube.com/c/CraftComputing/search?query=proxmox)  
-  Uso homelab reale, container, storage.
+  Real homelab use cases, containers, storage.
 - [The Digital Life](https://www.youtube.com/c/TheDigitalLife/search?query=proxmox)  
   Tutorials, LXC, scripting.
 - [DB Tech](https://www.youtube.com/c/DBTechYT/search?query=proxmox)  
-  Guide su container e servizi.
+  Guides on containers and services.
 
-### Canali italiani
+### Italian Channels
 - [Stefano Droghetti](https://www.youtube.com/@stefanodroghetti/search?query=proxmox)  
-  Tutorial in italiano su installazione, container e use-case Proxmox.
+  Italian tutorials on installation, containers and Proxmox use cases.
 - [Maurizio Leo](https://www.youtube.com/@MaurizioLeo/search?query=proxmox)  
-  Homelab e virtualizzazione.
+  Homelab and virtualization.
 - [Francesco Mainardi](https://www.youtube.com/@francescomainardi/search?query=proxmox)
 
 ---
@@ -317,7 +313,7 @@
 
 - [free-pmx](https://free-pmx.pages.dev/)
 - [Thomas Krenn Proxmox Wiki](https://www.thomas-krenn.com/de/wiki/Kategorie:Proxmox)
-- [Promxox VE Wiki](https://pve.proxmox.com/wiki/Main_Page)
+- [Proxmox VE Wiki](https://pve.proxmox.com/wiki/Main_Page)
 - [Proxmox VE Documentation](https://pve.proxmox.com/pve-docs/)
 
 ---
@@ -340,5 +336,3 @@ Or see [CONTRIBUTING.md](CONTRIBUTING.md) in this repo for detailed instructions
 
 This list is under the [Creative Commons Attribution-ShareAlike 1.0 Generic License](https://creativecommons.org/licenses/by-sa/1.0/).
 Terms of the license are summarized in the link above.
-
----
