@@ -212,6 +212,8 @@
 - [ProxMigrate](https://github.com/AthenaNetworks/ProxMigrate)
 - [Proxmox VM Autoscale](https://github.com/fabriziosalmi/proxmox-vm-autoscale)
 - [ProxLB](https://github.com/gyptazy/ProxLB)
+- [ProxmoxMCP](https://github.com/rodaddy/ProxmoxMCP) - MCP server for Proxmox VE management, enabling AI assistants to control VMs, containers, and cluster resources.
+- [ProxmoxMCP-Plus](https://github.com/rodaddy/ProxmoxMCP-Plus) - Enhanced Proxmox MCP server with advanced virtualization management and full OpenAPI integration.
 - [Proxmox-Enhanced-Configuration-Utility (PECU)](https://github.com/Danilop95/Proxmox-Enhanced-Configuration-Utility)
 - [Proxmox VE Helper-Scripts](https://github.com/community-scripts/ProxmoxVE)
 - [proxtagger](https://github.com/reginleif88/proxtagger)
