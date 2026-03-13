@@ -158,6 +158,8 @@
 - [proxmox-utils (Console Client)](https://github.com/remofritzsche/proxmox-utils)
 - [Proxmoxia (Wrapper)](https://github.com/baseblack/Proxmoxia)
 - [pmxc (Console Client)](https://github.com/pcdummy/pmxc)
+- [ProxmoxMCP (MCP Server)](https://github.com/rodaddy/ProxmoxMCP) - MCP server for Proxmox VE management -- control VMs, containers, and cluster resources from AI assistants.
+- [ProxmoxMCP-Plus (MCP Server)](https://github.com/rodaddy/ProxmoxMCP-Plus) - Enhanced Proxmox MCP server with advanced virtualization management and full OpenAPI integration.
 
 #### PowerShell
 - [cv4pve-api-powershell](https://github.com/Corsinvest/cv4pve-api-powershell)
