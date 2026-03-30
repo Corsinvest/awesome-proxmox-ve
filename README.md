@@ -29,6 +29,7 @@
 - [Other Tools](#other-tools)
 - [CV4PVE Suite](#cv4pve-suite)
 - [Mobile Apps](#mobile-apps)
+- [Desktop Apps](#desktop-apps)
 - [Documentation](#documentation)
 - [Tutorials, Blogs & Video](#tutorials-blogs--video)
 - [Templates & Marketplace](#templates--marketplace)
@@ -53,11 +54,13 @@
 
 ## Management
 
-- [CV4PVE-ADMIN (Web UI)](https://corsinvest.it/cv4pve-admin-proxmox/)  
-  Powerful and easy-to-use web administration interface for monitoring/manage multiple Proxmox VE clusters from a single portal.  
+- [CV4PVE-ADMIN (Web UI)](https://corsinvest.it/cv4pve-admin-proxmox/)
+  Powerful and easy-to-use web administration interface for monitoring/manage multiple Proxmox VE clusters from a single portal.
   [GitHub](https://github.com/Corsinvest/cv4pve-admin)
-- [MultiPortal](https://multiportal.io/)  
-- [Convoy](https://convoypanel.com/)  
+- [MultiPortal](https://multiportal.io/)
+- [Convoy](https://convoypanel.com/)
+- [PegaProx](https://pegaprox.com/) — Datacenter management UI with unified multi-cluster control, intelligent load balancing and seamless cross-cluster migrations.
+- [ProxCenter](https://www.proxcenter.io/) — Modern web interface for multi-cluster management, cross-hypervisor migration and workload balancing from a single pane of glass.
 - [Proxmox Datacenter Manager](https://www.proxmox.com/en/downloads/proxmox-datacenter-manager)
 
 ---
@@ -66,16 +69,16 @@
 
 **Advanced official Corsinvest tools for integrated multi-platform Proxmox VE management.**
 
-- [**CV4PVE-ADMIN**](https://github.com/Corsinvest/cv4pve-admin)  
-  Web administration portal: centralized browser-based management of multiple clusters, users/groups, metrics, storage, snapshots, firewall, scheduled jobs and much more.
-- [**CV4PVE-CLI**](https://github.com/Corsinvest/cv4pve-cli)  
-  Advanced cross-platform command-line interface with hundreds of features for scripting, automation, data export, user management, reports and analysis.
-- [**CV4PVE-AUTOSNAP**](https://github.com/Corsinvest/cv4pve-autosnap)  
-  Automated snapshot management, differential backups, time-based policies, rollback.
-- [**CV4PVE-DIAG**](https://github.com/Corsinvest/cv4pve-diag)  
-  Diagnostic tools, troubleshooting, configuration auditing and cluster health analysis.
-- [**CV4PVE-METRIC**](https://github.com/Corsinvest/cv4pve-metric)  
-  Cluster metrics collection and export to Prometheus and other monitoring systems (alerting, dashboards).
+- [**CV4PVE-ADMIN**](https://github.com/Corsinvest/cv4pve-admin)
+  Web management platform for Proxmox VE clusters — like vCenter but for Proxmox.
+- [**CV4PVE-CLI**](https://github.com/Corsinvest/cv4pve-cli)
+  kubectl-style remote CLI for Proxmox VE with multi-cluster support and shell completion.
+- [**CV4PVE-AUTOSNAP**](https://github.com/Corsinvest/cv4pve-autosnap)
+  Automatic snapshot tool for Proxmox VE VMs and containers with retention policies.
+- [**CV4PVE-DIAG**](https://github.com/Corsinvest/cv4pve-diag)
+  Diagnostic and health-check tool for Proxmox VE clusters.
+- [**CV4PVE-METRICS-EXPORTER**](https://github.com/Corsinvest/cv4pve-metrics-exporter)
+  Prometheus metrics exporter for Proxmox VE nodes, VMs, containers and storage.
 - [**CV4PVE-API**](https://github.com/Corsinvest/cv4pve-api-dotnet)  
   Official Corsinvest API client to integrate, develop and customize Proxmox in .NET/C# ([NuGet](https://www.nuget.org/packages/Corsinvest.ProxmoxVE.Api/)).
 - [**CV4PVE-API-PHP**](https://github.com/Corsinvest/cv4pve-api-php)  
@@ -86,10 +89,16 @@
   Official Java API client.
 - [**CV4PVE-API-POWERSHELL**](https://github.com/Corsinvest/cv4pve-api-powershell)  
   Official PowerShell module and CmdLets for managing Proxmox VE from Windows, Azure DevOps, etc.
-- [**CV4PVE-BOTGRAM**](https://github.com/Corsinvest/cv4pve-botgram)  
-  Proxmox management bot via Telegram.
-- [**CV4PVE-PEPPER**](https://github.com/Corsinvest/cv4pve-pepper)  
-  C# module for cluster management and advanced automation.
+- [**CV4PVE-BOTGRAM**](https://github.com/Corsinvest/cv4pve-botgram)
+  Telegram bot to manage and monitor Proxmox VE from your mobile.
+- [**CV4PVE-PEPPER**](https://github.com/Corsinvest/cv4pve-pepper)
+  CLI launcher for SPICE remote viewer on Proxmox VE VMs with automatic ticket handling.
+- [**CV4PVE-VDI**](https://github.com/Corsinvest/cv4pve-vdi)
+  Desktop VDI client for Proxmox VE — SPICE, VNC, RDP and SSH console launchers.
+- [**CV4PVE-REPORT**](https://github.com/Corsinvest/cv4pve-report)
+  Export Proxmox VE infrastructure to a navigable Excel report — like RVTools for Proxmox.
+- [**CV4PVE-NODE-PROTECT**](https://github.com/Corsinvest/cv4pve-node-protect)
+  Backup and restore Proxmox VE node configuration files via SSH.
 
 **Related online suite:**
 - [cv4pve-tools.com](https://www.cv4pve-tools.com)  
@@ -115,8 +124,7 @@
 - [Pulse](https://github.com/rcourtman/Pulse)
 - [VictoriaMetrics](https://victoriametrics.com/blog/proxmox-monitoring-with-dbaas/)
 - [Zabbix](https://www.zabbix.com/de/integrations/proxmox)
-
-- [What Broke Today](https://whatbroke.today) - AI-powered outage aggregator tracking 100+ cloud services with real-time Telegram alerts
+- [cv4pve-metrics-exporter](https://github.com/Corsinvest/cv4pve-metrics-exporter) — Prometheus metrics exporter for Proxmox VE nodes, VMs, containers and storage.
 ---
 
 ## Backup Tools
@@ -145,6 +153,7 @@
 - [Setting Up Highly Available Storage for Proxmox Using LINSTOR](https://linbit.com/blog/setting-up-highly-available-storage-for-proxmox-using-linstor-the-linbit-gui/)
 - [Netapp: Proxmox VE with ONTAP](https://docs.netapp.com/us-en/netapp-solutions/proxmox/proxmox-ontap.html)
 - [Proxmox VE Plugin for Pure Storage as Multipath iSCSI Source](https://github.com/kolesa-team/pve-purestorage-plugin)
+- [Proxmox VE Plugin for HPE Nimble Storage (iSCSI)](https://github.com/brngates98/pve-nimble-plugin) — Integration of HPE Nimble Storage arrays with Proxmox VE over iSCSI, using the Nimble REST API to create and manage volumes.
 - [TrueNAS Proxmox VE Storage Plugin](https://github.com/WarlockSyno/TrueNAS-Proxmox-VE-Storage-Plugin)
 
 ---
@@ -211,6 +220,7 @@
 - [ProxMenux](https://github.com/MacRimi/ProxMenux)
 - [ProxMigrate](https://github.com/AthenaNetworks/ProxMigrate)
 - [Proxmox VM Autoscale](https://github.com/fabriziosalmi/proxmox-vm-autoscale)
+- [ProxCLMC](https://github.com/gyptazy/ProxCLMC) — Lightweight tool to determine the maximum CPU compatibility level supported across all nodes in a Proxmox VE cluster.
 - [ProxLB](https://github.com/gyptazy/ProxLB)
 - [ProxmoxMCP](https://github.com/rodaddy/ProxmoxMCP) - MCP server for Proxmox VE management, enabling AI assistants to control VMs, containers, and cluster resources.
 - [ProxmoxMCP-Plus](https://github.com/rodaddy/ProxmoxMCP-Plus) - Enhanced Proxmox MCP server with advanced virtualization management and full OpenAPI integration.
@@ -219,6 +229,8 @@
 - [proxtagger](https://github.com/reginleif88/proxtagger)
 - [PVE-mods](https://github.com/Meliox/PVE-mods)
 - [pvetui](https://github.com/devnullvoid/pvetui)
+- [ProxSave](https://proxsave.dev/) — Backup and restore of Proxmox PBS & PVE system files — save your entire environment and restore it at any time.
+- [ProxSnap](https://github.com/gyptazy/ProxSnap) — Lightweight CLI tool for auditing and cleaning up snapshots across Proxmox VE clusters.
 - [Terraform Provider for Proxmox](https://github.com/bpg/terraform-provider-proxmox)
 
 ---
@@ -311,9 +323,32 @@
 
 ---
 
+## Mobile Apps
+
+### Android
+- [Proxmox VE Android App](https://play.google.com/store/apps/details?id=com.proxmox.app.pve_flutter_frontend) — Official app to manage VMs, containers, hosts and clusters.
+- [ProxMon](https://play.google.com/store/apps/details?id=dev.reimu.proxmon) — View nodes, storage pools, VMs and containers statuses.
+
+### iOS
+- [ProxMan](https://proxman.app) — App for managing Proxmox VE and Proxmox Backup Server environments.
+- [ProxMate](https://apps.apple.com/de/app/proxmate/id6470526961) — Manage your Proxmox server from iOS.
+- [ProxMate Backup](https://apps.apple.com/de/app/proxmate-backup/id6618157722) — Manage Proxmox Backup Servers.
+- [ProxMobo](https://proxmobo.app/) — Monitoring and management app for Proxmox VE and Proxmox Backup Server.
+
+---
+
+## Desktop Apps
+
+### macOS
+- [ProxmoxBar](https://github.com/ryzenixx/proxmoxbar-macos) — Native macOS menu bar app for monitoring and controlling Proxmox VE resources.
+
+---
+
 ## Documentation
 
+- [10 Ways to Ruin Your Proxmox Setup](https://github.com/SwamiRama/10-ways-to-ruin-proxmox) — Common mistakes and how to avoid them.
 - [free-pmx](https://free-pmx.pages.dev/)
+- [Proxmox Hardening Guide](https://github.com/HomeSecExplorer/Proxmox-Hardening-Guide) — Actionable recommendations to secure Proxmox VE and Proxmox Backup Server.
 - [Thomas Krenn Proxmox Wiki](https://www.thomas-krenn.com/de/wiki/Kategorie:Proxmox)
 - [Proxmox VE Wiki](https://pve.proxmox.com/wiki/Main_Page)
 - [Proxmox VE Documentation](https://pve.proxmox.com/pve-docs/)
