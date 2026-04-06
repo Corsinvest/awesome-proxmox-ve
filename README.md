@@ -144,6 +144,7 @@
 - [CV4PVE-AUTOSNAP](https://github.com/Corsinvest/cv4pve-autosnap)
   - Snapshot automation with policies for Proxmox VE.
 - [PBS_Chunk_Checker](https://github.com/VoltKraft/PBS_Chunk_Checker)
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for infrastructure management, Docker monitoring, and multi-agent orchestration with Claude Code. MIT licensed.
 
 ---
 
