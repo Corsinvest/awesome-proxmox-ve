@@ -222,6 +222,7 @@
 - [Proxmox VM Autoscale](https://github.com/fabriziosalmi/proxmox-vm-autoscale)
 - [ProxCLMC](https://github.com/gyptazy/ProxCLMC) — Lightweight tool to determine the maximum CPU compatibility level supported across all nodes in a Proxmox VE cluster.
 - [ProxLB](https://github.com/gyptazy/ProxLB)
+- [ProxDeploy](https://github.com/NordicsSys/proxdeploy) — Production-ready Python CLI to deploy, list, and destroy KVM guests from YAML templates, with cloud-init, SSH provisioning, dry-run, and API retry resilience.
 - [ProxmoxMCP](https://github.com/rodaddy/ProxmoxMCP) - MCP server for Proxmox VE management, enabling AI assistants to control VMs, containers, and cluster resources.
 - [ProxmoxMCP-Plus](https://github.com/rodaddy/ProxmoxMCP-Plus) - Enhanced Proxmox MCP server with advanced virtualization management and full OpenAPI integration.
 - [Proxmox-Enhanced-Configuration-Utility (PECU)](https://github.com/Danilop95/Proxmox-Enhanced-Configuration-Utility)
