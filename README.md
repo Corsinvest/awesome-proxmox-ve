@@ -125,6 +125,7 @@
 - [VictoriaMetrics](https://victoriametrics.com/blog/proxmox-monitoring-with-dbaas/)
 - [Zabbix](https://www.zabbix.com/de/integrations/proxmox)
 - [cv4pve-metrics-exporter](https://github.com/Corsinvest/cv4pve-metrics-exporter) — Prometheus metrics exporter for Proxmox VE nodes, VMs, containers and storage.
+- [Proxmox Atlas](https://github.com/Losstarot85/proxmox-atlas) — Real-time multi-cluster monitoring dashboard for Proxmox VE infrastructure
 ---
 
 ## Backup Tools
