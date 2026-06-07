@@ -144,6 +144,8 @@
 - [proxmox-backup](https://github.com/tis24dev/proxmox-backup)
 - [CV4PVE-AUTOSNAP](https://github.com/Corsinvest/cv4pve-autosnap)
   - Snapshot automation with policies for Proxmox VE.
+- [pve-bindsnap](https://github.com/bitranox/pve-bindsnap)
+  - Snapshot LXC containers that have bind/device mounts, which stock Proxmox greys out. Can also exclude specific volumes from a snapshot. Works with the GUI, API, pct and cv4pve-autosnap.
 - [PBS_Chunk_Checker](https://github.com/VoltKraft/PBS_Chunk_Checker)
 
 ---
