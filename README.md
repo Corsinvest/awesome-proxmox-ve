@@ -340,6 +340,7 @@
 - [ProxMate](https://apps.apple.com/de/app/proxmate/id6470526961) — Manage your Proxmox server from iOS.
 - [ProxMate Backup](https://apps.apple.com/de/app/proxmate-backup/id6618157722) — Manage Proxmox Backup Servers.
 - [ProxMobo](https://proxmobo.app/) — Monitoring and management app for Proxmox VE and Proxmox Backup Server.
+- [Reeve](https://reeveapp.io) — Monitor and manage Proxmox VE nodes, VMs, and containers from iOS.
 
 ---
 
