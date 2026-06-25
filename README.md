@@ -229,6 +229,7 @@
 - [ProxmoxMCP](https://github.com/rodaddy/ProxmoxMCP) - MCP server for Proxmox VE management, enabling AI assistants to control VMs, containers, and cluster resources.
 - [ProxmoxMCP-Plus](https://github.com/rodaddy/ProxmoxMCP-Plus) - Enhanced Proxmox MCP server with advanced virtualization management and full OpenAPI integration.
 - [Proxmox-Enhanced-Configuration-Utility (PECU)](https://github.com/Danilop95/Proxmox-Enhanced-Configuration-Utility)
+- [proxmox-ftagent](https://github.com/Flowtriq/proxmox-ftagent) — One-command LXC deployment of the Flowtriq DDoS detection agent on Proxmox VE, with automatic dependency and systemd service setup.
 - [Proxmox VE Helper-Scripts](https://github.com/community-scripts/ProxmoxVE)
 - [proxtagger](https://github.com/reginleif88/proxtagger)
 - [PVE-mods](https://github.com/Meliox/PVE-mods)
