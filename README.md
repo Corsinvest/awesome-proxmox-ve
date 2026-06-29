@@ -62,7 +62,8 @@
 - [PegaProx](https://pegaprox.com/) — Datacenter management UI with unified multi-cluster control, intelligent load balancing and seamless cross-cluster migrations.
 - [ProxCenter](https://www.proxcenter.io/) — Modern web interface for multi-cluster management, cross-hypervisor migration and workload balancing from a single pane of glass.
 - [Proxmox Datacenter Manager](https://www.proxmox.com/en/downloads/proxmox-datacenter-manager)
-
+- [P3Portal](https://github.com/P3Portal-org/p3portal)
+  Web portal to manage Proxmox VE: cluster dashboard, Ansible/Packer automation, networking/SDN/firewall, VM/LXC lifecycle and fine-grained RBAC. Core is AGPLv3; an optional Plus edition adds declarative Stacks (OpenTofu), pools & quotas, 4-eyes approval and visual editors.
 ---
 
 ## CV4PVE Suite
