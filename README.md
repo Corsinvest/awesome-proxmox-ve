@@ -54,6 +54,7 @@
 
 ## Management
 
+- [AtlasPVE](https://atlaspve.com) — Safety-focused control layer for Proxmox VE: live map of VMs and storage, host updates sorted by impact, snapshot-before-change and one-click rollback. Commercial, early access.
 - [CV4PVE-ADMIN (Web UI)](https://corsinvest.it/cv4pve-admin-proxmox/)
   Powerful and easy-to-use web administration interface for monitoring/manage multiple Proxmox VE clusters from a single portal.
   [GitHub](https://github.com/Corsinvest/cv4pve-admin)
