@@ -22,9 +22,12 @@
 - [Proxmox VE](#proxmox-ve)
 - [Management](#management)
 - [VPS Control Panels](#vps-control-panels)
+- [VDI](#vdi)
 - [Monitoring](#monitoring)
 - [Backup Tools](#backup-tools)
 - [Storage](#storage)
+- [Inventory](#inventory)
+- [AI](#ai)
 - [API & SDKs](#api--sdks)
 - [Other Tools](#other-tools)
 - [CV4PVE Suite](#cv4pve-suite)
@@ -65,6 +68,7 @@
 - [P3Portal](https://github.com/P3Portal-org/p3portal)
   Web portal to manage Proxmox VE: cluster dashboard, Ansible/Packer automation, networking/SDN/firewall, VM/LXC lifecycle and fine-grained RBAC. Core is AGPLv3; an optional Plus edition adds declarative Stacks (OpenTofu), pools & quotas, 4-eyes approval and visual editors.
 - [AtlasPVE](https://atlaspve.com) — Safety-focused control layer for Proxmox VE: live map of VMs and storage, host updates sorted by impact, snapshot-before-change and one-click rollback. Commercial, early access.
+- [Tainer](https://tainer.sh) — Management platform for Proxmox VE.
 ---
 
 ## CV4PVE Suite
@@ -116,6 +120,14 @@
 
 ---
 
+## VDI
+
+- [CV4PVE-VDI](https://github.com/Corsinvest/cv4pve-vdi) — Official Corsinvest desktop VDI client for Proxmox VE with SPICE, VNC, RDP and SSH console launchers.
+- [Kasm Workspaces](https://www.kasmweb.com/) — Streaming containerized desktops and apps with Proxmox VE as an autoscale provider.
+- [PVE-VDIClient](https://github.com/joshpatten/PVE-VDIClient) — Lightweight VDI kiosk client for launching Proxmox VE VM consoles.
+
+---
+
 ## Monitoring
 
 - [CheckMK](https://checkmk.com/blog/proxmox-monitoring)
@@ -128,6 +140,7 @@
 - [Zabbix](https://www.zabbix.com/de/integrations/proxmox)
 - [cv4pve-metrics-exporter](https://github.com/Corsinvest/cv4pve-metrics-exporter) — Prometheus metrics exporter for Proxmox VE nodes, VMs, containers and storage.
 - [Proxmox Atlas](https://github.com/Losstarot85/proxmox-atlas) — Real-time multi-cluster monitoring dashboard for Proxmox VE infrastructure
+- [check_pve](https://github.com/nbuchwitz/check_pve) — Icinga/Nagios plugin to monitor Proxmox VE nodes, VMs, storage and cluster health.
 ---
 
 ## Backup Tools
@@ -160,6 +173,26 @@
 - [Proxmox VE Plugin for Pure Storage as Multipath iSCSI Source](https://github.com/kolesa-team/pve-purestorage-plugin)
 - [Proxmox VE Plugin for HPE Nimble Storage (iSCSI)](https://github.com/brngates98/pve-nimble-plugin) — Integration of HPE Nimble Storage arrays with Proxmox VE over iSCSI, using the Nimble REST API to create and manage volumes.
 - [TrueNAS Proxmox VE Storage Plugin](https://github.com/WarlockSyno/TrueNAS-Proxmox-VE-Storage-Plugin)
+- [StorPool](https://storpool.com/proxmox-virtual-environment) — High-performance distributed storage platform with native Proxmox VE integration.
+- [Everpure](https://support.everpuredata.com/access?dita:id=m_proxmox) — Storage technology integrations for Proxmox VE.
+
+---
+
+## Inventory
+
+- [CV4PVE-REPORT](https://github.com/Corsinvest/cv4pve-report) — Export Proxmox VE infrastructure to a navigable Excel report — like RVTools for Proxmox.
+- [netbox-proxbox](https://github.com/netdevopsbr/netbox-proxbox) — NetBox plugin to sync and inventory Proxmox VE clusters, nodes and VMs.
+- [iTop CMDB: Data collector for Proxmox](https://www.itophub.io/wiki/page?id=extensions%3Acombodo-proxmox-data-collector) — Combodo data collector to import Proxmox VE assets into the iTop CMDB.
+- [netbox Enterprise Proxmox VE Integration](https://netboxlabs.com/docs/integrations/platform-integrations/proxmox-ve/) — Official NetBox Labs integration to inventory Proxmox VE infrastructure.
+- [Proxmox Virtual Environment CMDB importer](https://versio.io/en/import-proxmox-cmdb-configuration-item.html) — Import Proxmox VE configuration items into the Versio.io CMDB.
+
+---
+
+## AI
+
+- [ProxmoxMCP](https://github.com/rodaddy/ProxmoxMCP) — MCP server for Proxmox VE management, enabling AI assistants to control VMs, containers, and cluster resources.
+- [ProxmoxMCP-Plus](https://github.com/rodaddy/ProxmoxMCP-Plus) — Enhanced Proxmox MCP server with advanced virtualization management and full OpenAPI integration.
+- [Proximo](https://github.com/john-broadway/proximo) — AI-driven natural-language assistant for managing Proxmox VE.
 
 ---
 
@@ -228,8 +261,10 @@
 - [ProxCLMC](https://github.com/gyptazy/ProxCLMC) — Lightweight tool to determine the maximum CPU compatibility level supported across all nodes in a Proxmox VE cluster.
 - [ProxLB](https://github.com/gyptazy/ProxLB)
 - [ProxDeploy](https://github.com/NordicsSys/proxdeploy) — Production-ready Python CLI to deploy, list, and destroy KVM guests from YAML templates, with cloud-init, SSH provisioning, dry-run, and API retry resilience.
-- [ProxmoxMCP](https://github.com/rodaddy/ProxmoxMCP) - MCP server for Proxmox VE management, enabling AI assistants to control VMs, containers, and cluster resources.
-- [ProxmoxMCP-Plus](https://github.com/rodaddy/ProxmoxMCP-Plus) - Enhanced Proxmox MCP server with advanced virtualization management and full OpenAPI integration.
+- [Proxmox Report Generator](https://github.com/AungThuMyint/ProxmoxReportGenerator) — Generate infrastructure reports for Proxmox VE clusters.
+- [Proxmox Manager](https://github.com/TimInTech/proxmox-manager) — CLI toolkit for common Proxmox VE administration tasks.
+- [pve-microvm](https://github.com/rcarmo/pve-microvm) — Run lightweight microVMs on Proxmox VE.
+- [Proxmox-GitOps](https://github.com/stevius10/Proxmox-GitOps) — GitOps workflow to manage Proxmox VE infrastructure declaratively.
 - [Proxmox-Enhanced-Configuration-Utility (PECU)](https://github.com/Danilop95/Proxmox-Enhanced-Configuration-Utility)
 - [proxmox-ftagent](https://github.com/Flowtriq/proxmox-ftagent) — One-command LXC deployment of the Flowtriq DDoS detection agent on Proxmox VE, with automatic dependency and systemd service setup.
 - [Proxmox VE Helper-Scripts](https://github.com/community-scripts/ProxmoxVE)
@@ -337,9 +372,11 @@
 ### Android
 - [Proxmox VE Android App](https://play.google.com/store/apps/details?id=com.proxmox.app.pve_flutter_frontend) — Official app to manage VMs, containers, hosts and clusters.
 - [ProxMon](https://play.google.com/store/apps/details?id=dev.reimu.proxmon) — View nodes, storage pools, VMs and containers statuses.
+- [ProxMan (Android)](https://play.google.com/store/apps/details?id=com.windium.proxman) — Manage Proxmox VE nodes, VMs and containers from Android.
 
 ### iOS
 - [ProxMan](https://proxman.app) — App for managing Proxmox VE and Proxmox Backup Server environments.
+- [Proxmox VE Companion](https://apps.apple.com/de/app/proxmox-ve-companion/id6748314140) — Monitor and manage Proxmox VE environments from iOS.
 - [ProxMate](https://apps.apple.com/de/app/proxmate/id6470526961) — Manage your Proxmox server from iOS.
 - [ProxMate Backup](https://apps.apple.com/de/app/proxmate-backup/id6618157722) — Manage Proxmox Backup Servers.
 - [ProxMobo](https://proxmobo.app/) — Monitoring and management app for Proxmox VE and Proxmox Backup Server.
