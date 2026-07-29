@@ -413,8 +413,9 @@
 
 ## Contributing
 
-Contributing guidelines can be found [here](https://github.com/alexgoesgit/awesome-proxmox-ve-virtualization/blob/main/contributing.md).
-Or see [CONTRIBUTING.md](CONTRIBUTING.md) in this repo for detailed instructions.
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+
+The short version: **new entries are always appended at the end of their section**, one suggestion per pull request.
 
 ---
 
