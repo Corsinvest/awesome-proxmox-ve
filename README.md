@@ -300,6 +300,7 @@
 ## Security Tools & Best Practices
 
 - [Proxmox Security Best Practices (official)](https://pve.proxmox.com/wiki/Security)
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes.
 - [OpenSCAP - Security audit tool](https://www.open-scap.org/)
 - [Falco Security - Runtime Linux Security](https://falco.org/)
 - [Official Proxmox Firewall Guide](https://pve.proxmox.com/pve-docs/pve-firewall.8.html)
