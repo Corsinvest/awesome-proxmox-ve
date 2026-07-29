@@ -331,6 +331,7 @@
 - [ProxMox Repo Manager/No-Subscription Script](https://tteck.github.io/Proxmox/)
 - [Proxmox VE Helper-Scripts](https://github.com/community-scripts/ProxmoxVE)
 - [pve-disk-shrink](https://github.com/Garfieldttt/pve-disk-shrink) — Dialog-based offline shrinking of Proxmox VE VM disks and LXC volumes (zvol/qcow2/LVM), no live ISO or manual partitioning needed.
+- [Proxmox VMID Updater](https://github.com/sannier3/proxmox-vmid-updater) - Safely renames QEMU VM and LXC container VMIDs, including configurations, storage volumes, snapshots, backups, HA and firewall resources, with transactional rollback.
 
 ---
 
