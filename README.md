@@ -275,7 +275,7 @@
 - [ProxSnap](https://github.com/gyptazy/ProxSnap) — Lightweight CLI tool for auditing and cleaning up snapshots across Proxmox VE clusters.
 - [Snapbridge](https://github.com/abdoufermat5/snapbridge) - Rust CLI for managing Proxmox snapshots on NetApp ONTAP-backed storage (for both NAS and SAN).
 - [Terraform Provider for Proxmox](https://github.com/bpg/terraform-provider-proxmox)
-- [Proxmox LXC AutoScale ML](https://github.com/fabriziosalmi/proxmox-lxc-autoscale-ml) - Machine-learning driven predictive autoscaling of LXC container resources on Proxmox VE.
+- [Proxmox LXC AutoScale ML](https://github.com/fabriziosalmi/proxmox-lxc-autoscale-ml) — Machine-learning-driven predictive autoscaling of LXC container resources on Proxmox VE.
 
 ---
 
