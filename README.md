@@ -275,6 +275,7 @@
 - [ProxSnap](https://github.com/gyptazy/ProxSnap) — Lightweight CLI tool for auditing and cleaning up snapshots across Proxmox VE clusters.
 - [Snapbridge](https://github.com/abdoufermat5/snapbridge) - Rust CLI for managing Proxmox snapshots on NetApp ONTAP-backed storage (for both NAS and SAN).
 - [Terraform Provider for Proxmox](https://github.com/bpg/terraform-provider-proxmox)
+- [lws](https://github.com/fabriziosalmi/lws) — Unified CLI for Proxmox, LXC, and Docker.
 
 ---
 
