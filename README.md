@@ -276,6 +276,7 @@
 - [Snapbridge](https://github.com/abdoufermat5/snapbridge) - Rust CLI for managing Proxmox snapshots on NetApp ONTAP-backed storage (for both NAS and SAN).
 - [Terraform Provider for Proxmox](https://github.com/bpg/terraform-provider-proxmox)
 - [lws](https://github.com/fabriziosalmi/lws) — Unified CLI for Proxmox, LXC, and Docker.
+- [valheim-proxmox](https://github.com/PawelSzymanski89/valheim-proxmox) — One-command Valheim dedicated server in an LXC, with a web panel for players, bans, worlds, backups and mods.
 
 ---
 
