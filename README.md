@@ -135,7 +135,7 @@
 - [Netdata](https://www.netdata.cloud/integrations/data-collection/containers-and-vms/proxmox-ve/)
 - [PandoraFMS](https://pandorafms.com/blog/proxmox-ve-monitoring/)
 - [Prometheus Proxmox VE Exporter](https://github.com/prometheus-pve/prometheus-pve-exporter)
-- [Pulse](https://github.com/rcourtman/Pulse)
+- [Pulse](https://github.com/rcourtman/Pulse) — Real-time monitoring for Proxmox VE and PBS with guest, storage and backup visibility, alerting, and a multi-client mode for providers.
 - [VictoriaMetrics](https://victoriametrics.com/blog/proxmox-monitoring-with-dbaas/)
 - [Zabbix](https://www.zabbix.com/de/integrations/proxmox)
 - [cv4pve-metrics-exporter](https://github.com/Corsinvest/cv4pve-metrics-exporter) — Prometheus metrics exporter for Proxmox VE nodes, VMs, containers and storage.
