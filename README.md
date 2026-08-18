@@ -163,6 +163,7 @@
   - Snapshot LXC containers that have bind/device mounts, which stock Proxmox greys out. Can also exclude specific volumes from a snapshot. Works with the GUI, API, pct and cv4pve-autosnap.
 - [PBS_Chunk_Checker](https://github.com/VoltKraft/PBS_Chunk_Checker)
 - [pbs-autobackup](https://github.com/ferr079/pbs-autobackup) — Unattended backup cycle for a Proxmox Backup Server that stays powered off: Wake-on-LAN, enable the storage, vzdump every node, prune, garbage-collect, then shut the host back down.
+- [Joulenap](https://github.com/Joulenap/joulenap) — Web UI and scheduler for backups to a Proxmox Backup Server that stays powered off: wakes it, runs the backups, prunes, garbage-collects and shuts it down. Any number of PVE hosts and PBS, PBS to PBS sync, notifications.
 
 ---
 
