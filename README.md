@@ -381,6 +381,7 @@
 - [Proxmox VE Android App](https://play.google.com/store/apps/details?id=com.proxmox.app.pve_flutter_frontend) — Official app to manage VMs, containers, hosts and clusters.
 - [ProxMon](https://play.google.com/store/apps/details?id=dev.reimu.proxmon) — View nodes, storage pools, VMs and containers statuses.
 - [ProxMan (Android)](https://play.google.com/store/apps/details?id=com.windium.proxman) — Manage Proxmox VE nodes, VMs and containers from Android.
+- [Mobile SSH](https://mobile-ssh.github.io) — SSH, SFTP and terminal client for administering Proxmox nodes and guests from Android.
 
 ### iOS
 - [ProxMan](https://proxman.app) — App for managing Proxmox VE and Proxmox Backup Server environments.
@@ -389,6 +390,7 @@
 - [ProxMate Backup](https://apps.apple.com/de/app/proxmate-backup/id6618157722) — Manage Proxmox Backup Servers.
 - [ProxMobo](https://proxmobo.app/) — Monitoring and management app for Proxmox VE and Proxmox Backup Server.
 - [Reeve](https://reeveapp.io) — Monitor and manage Proxmox VE nodes, VMs, and containers from iOS.
+- [Mobile SSH](https://mobile-ssh.github.io) — SSH, SFTP and terminal client for administering Proxmox nodes and guests from iOS.
 
 ---
 
