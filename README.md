@@ -399,6 +399,9 @@
 ### macOS
 - [ProxmoxBar](https://github.com/ryzenixx/proxmoxbar-macos) — Native macOS menu bar app for monitoring and controlling Proxmox VE resources.
 
+### Windows & Linux
+- [PVE Center](https://github.com/mcluremail/pvecenter) — Native desktop client for Proxmox VE: monitoring, VM/container management, backups and direct Proxmox Backup Server integration (PySide6, Windows and Linux).
+
 ---
 
 ## Documentation
