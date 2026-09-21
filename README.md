@@ -401,6 +401,7 @@
 
 ### Windows & Linux
 - [PVE Center](https://github.com/mcluremail/pvecenter) — Native desktop client for Proxmox VE: monitoring, VM/container management, backups and direct Proxmox Backup Server integration (PySide6, Windows and Linux).
+- [Nexus Terminal](https://github.com/evdanil/vscode-NexTerminal) — VS Code and VSCodium extension that syncs Proxmox VMs and containers into SSH profiles and opens their web consoles.
 
 ---
 
