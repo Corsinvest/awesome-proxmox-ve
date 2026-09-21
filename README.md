@@ -291,6 +291,7 @@
 - [The Homelab Wiki - Proxmox Section](https://wiki.homelabos.com/other/proxmox/)
 
 ---
+- [Peira Labs - Homelab & Proxmox Guides](https://peira.dev/tags/proxmox/)
 
 ## Templates & Marketplace
 
