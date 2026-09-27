@@ -142,6 +142,7 @@
 - [Proxmox Atlas](https://github.com/Losstarot85/proxmox-atlas) — Real-time multi-cluster monitoring dashboard for Proxmox VE infrastructure
 - [check_pve](https://github.com/nbuchwitz/check_pve) — Icinga/Nagios plugin to monitor Proxmox VE nodes, VMs, storage and cluster health.
 - [Fivenines](https://fivenines.io/features/proxmox-monitoring) — Hosted monitoring for Proxmox VE clusters, QEMU VMs and LXC containers, with an open-source agent.
+- [pve-metrics-exporter](https://github.com/drumandbytes/pve-metrics-exporter) — Prometheus and Glance exporter for Proxmox VE: node, VM and LXC resource usage plus CPU/GPU/NVMe temperatures from lm-sensors.
 ---
 
 ## Backup Tools
