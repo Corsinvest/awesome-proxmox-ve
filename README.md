@@ -340,6 +340,7 @@
 - [pve-disk-shrink](https://github.com/Garfieldttt/pve-disk-shrink) — Dialog-based offline shrinking of Proxmox VE VM disks and LXC volumes (zvol/qcow2/LVM), no live ISO or manual partitioning needed.
 - [Proxmox VMID Updater](https://github.com/sannier3/proxmox-vmid-updater) - Safely renames QEMU VM and LXC container VMIDs, including configurations, storage volumes, snapshots, backups, HA and firewall resources, with transactional rollback.
 - [homelab-scripts](https://github.com/ferr079/homelab-scripts) — Small shell toolbox for a Proxmox homelab: cluster and container status through the API, TLS expiry checks for services behind a reverse proxy, bulk HTTP availability checks, and a Loki query wrapper.
+- [proxmox-ct-deploy](https://github.com/answ-kaz/proxmox-ct-deploy) — Deploy a Docker Compose app to an LXC container from your laptop over LAN or Tailscale: `pct push` sync, migrations after the DB is healthy, generation-managed Postgres backups, and the Cloudflare Tunnel / webhook gotchas.
 
 ---
 
