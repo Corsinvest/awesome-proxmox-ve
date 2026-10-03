@@ -431,6 +431,7 @@
 - [proxmox_toolbox](https://github.com/Tontonjo/proxmox_toolbox) - Toolbox for the first configuration of Proxmox VE and Proxmox Backup Server.
 - [zamba-lxc-toolbox](https://github.com/bashclub/zamba-lxc-toolbox) - Script collection to set up LXC containers on Proxmox VE with ZFS, including a Samba file server that exposes ZFS snapshots as Previous Versions.
 - [proxmox-hetzner](https://github.com/ariadata/proxmox-hetzner) - Install Proxmox VE on a Hetzner dedicated server without a KVM console.
+- [proxmox-homelab-scripts](https://github.com/danymexi/proxmox-homelab-scripts) - Scripts for a single-node home lab: LXC provisioning, Cloudflare Tunnel setup, an Ollama + Open WebUI stack and scheduled backups.
 
 ---
 
