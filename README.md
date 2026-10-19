@@ -440,6 +440,7 @@
 - [ServeTheHome Proxmox Benchmarks](https://www.servethehome.com/?s=proxmox+benchmark)
 - [OpenBenchmarking Proxmox Results](https://openbenchmarking.org/testbed/2202159-NE-PROXMOXV55)
 - [IdleWatt - Homelab Mini-PC Idle-Power & Passthrough Finder](https://idlewatt.vercel.app)
+- [vhr-bench](https://github.com/vpshostreview/vhr-vps-benchmark) - One-minute benchmark for a Linux VM or container: sysbench CPU and memory plus fio 4k random IOPS, for comparing guests and storage backends.
 
 ---
 
