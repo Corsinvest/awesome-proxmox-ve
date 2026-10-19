@@ -78,6 +78,7 @@
 - [AtlasPVE](https://atlaspve.com) - Safety-focused control layer for Proxmox VE: live map of VMs and storage, host updates sorted by impact, snapshot-before-change and one-click rollback. Commercial, early access.
 - [Tainer](https://tainer.sh) - Management platform for Proxmox VE.
 - [Proxion](https://github.com/C2Tech-sys/proxion) - Open-source web console for managing Proxmox VE nodes, VMs and containers.
+- [Hosbah](https://github.com/fadymondy/hosbah) - Open-source (AGPL-3.0) server management and app hosting that can create VMs and LXC containers on Proxmox VE, install an agent on them and deploy apps with zero downtime.
 - [ferrum](https://github.com/anand34577/ferrum) - Fleet dashboard for Proxmox VE clusters and standalone nodes with live inventory, backups, HA, firewall and alerting.
 - [PVMSS](https://github.com/julienhmmt/pvmss) - Lightweight self-service web portal that lets users create and manage VMs without access to the Proxmox VE web UI.
 
