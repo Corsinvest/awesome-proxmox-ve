@@ -218,6 +218,7 @@
 - [NetBird on Proxmox VE](https://docs.netbird.io/get-started/install/proxmox-ve) - Install guide for the NetBird open-source zero trust networking platform on Proxmox VE.
 - [tailmox](https://github.com/willjasen/tailmox) - Cluster Proxmox VE nodes over Tailscale.
 - [Tailscale](https://tailscale.com/docs/integrations/proxmox) - Guide to running Tailscale on Proxmox VE hosts.
+- [NSL.SH](https://github.com/Yundera/mesh-router-root) - Free, open-source domain routing that gives self-hosted services an HTTPS subdomain without port forwarding.
 
 ---
 
