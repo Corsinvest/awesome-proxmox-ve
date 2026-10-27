@@ -194,6 +194,7 @@
 - [Proxmox Backup Client](https://pbs.proxmox.com/docs/backup-client.html) - Official command-line client for Proxmox Backup Server.
 - [Rubrik](https://www.rubrik.com/solutions/proxmox-ve) - Data protection for Proxmox VE workloads.
 - [proxmox-backup-arm64](https://github.com/wofferl/proxmox-backup-arm64) - Build scripts for Proxmox Backup Server on arm64.
+- [BackupZit](https://github.com/Max-Zit/backupzit) - Open-source (AGPLv3) backup server for Proxmox VE 7, 8 and 9 VMs and containers, also VMware, Hyper-V and physical machines: changed-block backups, instant recovery, boot tests and off-site copies. [[Site](https://backupzit.com/)] [[Guide](https://backupzit.com/guides/proxmox-vm-backup/)]
 
 ---
 
