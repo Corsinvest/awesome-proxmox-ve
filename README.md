@@ -445,6 +445,7 @@
 - [OpenBenchmarking Proxmox Results](https://openbenchmarking.org/testbed/2202159-NE-PROXMOXV55)
 - [IdleWatt - Homelab Mini-PC Idle-Power & Passthrough Finder](https://idlewatt.vercel.app)
 - [vhr-bench](https://github.com/vpshostreview/vhr-vps-benchmark) - One-minute benchmark for a Linux VM or container: sysbench CPU and memory plus fio 4k random IOPS, for comparing guests and storage backends.
+- [Mini PC Idle Power Table](https://sheley.org/mini-pc-idle-power/) - Measured idle and load watts for common Proxmox mini PCs, each linked to its source.
 
 ---
 
