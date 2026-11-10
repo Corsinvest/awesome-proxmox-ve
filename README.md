@@ -75,7 +75,7 @@
 - [Proxmox Datacenter Manager](https://www.proxmox.com/en/downloads/proxmox-datacenter-manager)
 - [P3Portal](https://github.com/P3Portal-org/p3portal)
   Web portal to manage Proxmox VE: cluster dashboard, Ansible/Packer automation, networking/SDN/firewall, VM/LXC lifecycle and fine-grained RBAC. Core is AGPLv3; an optional Plus edition adds declarative Stacks (OpenTofu), pools & quotas, 4-eyes approval and visual editors.
-- [AtlasPVE](https://atlaspve.com) - Safety-focused control layer for Proxmox VE: live map of VMs and storage, host updates sorted by impact, snapshot-before-change and one-click rollback. Commercial, early access.
+- [AtlasPVE](https://atlaspve.com) - Safe operations layer that runs on the Proxmox VE host and works offline: live map of VMs and storage, updates sorted by impact, snapshot before every change and one-click rollback. Free Update Plan and live demo available.
 - [Tainer](https://tainer.sh) - Management platform for Proxmox VE.
 - [Proxion](https://github.com/C2Tech-sys/proxion) - Open-source web console for managing Proxmox VE nodes, VMs and containers.
 - [Hosbah](https://github.com/fadymondy/hosbah) - Open-source (AGPL-3.0) server management and app hosting that can create VMs and LXC containers on Proxmox VE, install an agent on them and deploy apps with zero downtime.
