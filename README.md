@@ -436,7 +436,7 @@
 - [proxmox-hetzner](https://github.com/ariadata/proxmox-hetzner) - Install Proxmox VE on a Hetzner dedicated server without a KVM console.
 - [proxmox-homelab-scripts](https://github.com/danymexi/proxmox-homelab-scripts) - Scripts for a single-node home lab: LXC provisioning, Cloudflare Tunnel setup, an Ollama + Open WebUI stack and scheduled backups.
 - [bmh-infra-scripts](https://github.com/geetmangal/bmh-infra-scripts) - Snapshot rotation for Proxmox VE VMs and containers by VMID or tag (keep N, skips locked guests, `qm`/`pct` or REST API), with KVM cloud-init, BGP anycast and vCenter scripts.
-
+- [proxmox-healthcheck](https://github.com/rollopack/proxmox-healthcheck) Lightweight health-check utility for Proxmox VE nodes, monitoring host resources, ZFS pools, storage, and guest states. (Author self-submission)
 ---
 
 ## Benchmark & Comparisons
