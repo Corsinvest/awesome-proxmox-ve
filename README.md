@@ -349,6 +349,7 @@
 - [OpenCore-ISO](https://github.com/LongQT-sea/OpenCore-ISO) - Preconfigured OpenCore ISO image to run macOS on Proxmox VE and QEMU/KVM.
 - [intel-igpu-passthru](https://github.com/LongQT-sea/intel-igpu-passthru) - Intel GVT-d iGPU passthrough for Proxmox VE, QEMU and KVM.
 - [pve-notebuddy](https://github.com/JangaJones/pve-notebuddy) - Web UI to generate formatted Proxmox guest notes.
+- [proxmox-igpu-passthrough](https://github.com/ogabelopes/proxmox-igpu-passthrough) - AMD Radeon 680M/780M (Ryzen 6000/7000) iGPU passthrough to Windows 11 on Proxmox VE, with a read-only setup checker.
 
 ---
 
