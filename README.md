@@ -302,6 +302,7 @@
 - [OpenTofu Provider for Proxmox](https://search.opentofu.org/provider/bpg/proxmox/latest) - OpenTofu registry entry for the bpg Proxmox provider.
 - [Pulumi Proxmox VE](https://github.com/muhlba91/pulumi-proxmoxve) - Pulumi provider for creating and managing Proxmox VE resources.
 - [foreman_fog_proxmox](https://github.com/theforeman/foreman_fog_proxmox) - Foreman plugin that adds Proxmox VE as a compute resource.
+- [Rackplinth Lite](https://github.com/nickolss/rackplinth-lite) - Script that builds a checksum-verified Debian cloud-init template, plus a Terraform/OpenTofu module that creates VMs from a single map and writes an Ansible inventory.
 
 ---
 
