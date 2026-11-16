@@ -388,6 +388,7 @@
 - [TTECK Proxmox LXC Templates & Utilities](https://tteck.github.io/Proxmox/)
 - [LinuxServer Container Templates](https://github.com/linuxserver/docker-templates)
 - [TrueNAS SCALE Community Catalog](https://github.com/trueforge-org/truecharts)
+- [Open Image Cloud](https://openimages.cloud) - Signed, boot-tested qcow2 cloud images with cloud-init (Debian, Ubuntu, Rocky, AlmaLinux, Fedora, FreeBSD and more), and oic-sync to keep VM templates up to date on a node.
 
 ---
 
