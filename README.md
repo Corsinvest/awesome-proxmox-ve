@@ -352,6 +352,7 @@
 - [pve-notebuddy](https://github.com/JangaJones/pve-notebuddy) - Web UI to generate formatted Proxmox guest notes.
 - [proxmox-igpu-passthrough](https://github.com/ogabelopes/proxmox-igpu-passthrough) - AMD Radeon 680M/780M (Ryzen 6000/7000) iGPU passthrough to Windows 11 on Proxmox VE, with a read-only setup checker.
 - [Proxmox VM Capacity Planner](https://techfuelhq.com/tools/proxmox-capacity-planner/) - Browser calculator to size KVM VM and LXC counts from host RAM, CPU cores, vCPU overcommit, and ZFS ARC reserve.
+- [MemoryLimit](https://memorylimit.dev/proxmox/) - Browser calculator that sets a VM's memory and ballooning minimum from the guest's observed usage, with the method and sources documented.
 
 ---
 
