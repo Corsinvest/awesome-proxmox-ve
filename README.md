@@ -242,6 +242,7 @@
 - [ProxmoxMCP-Plus](https://github.com/RekklesNA/ProxmoxMCP-Plus) - Enhanced Proxmox MCP server with advanced virtualization management and full OpenAPI integration.
 - [Proximo](https://github.com/john-broadway/proximo) - AI-driven natural-language assistant for managing Proxmox VE.
 - [mcp-proxmox](https://github.com/antonio-mello-ai/mcp-proxmox) - MCP server for managing Proxmox VE clusters through AI assistants.
+- [Proxmox Controller](https://github.com/themechanic-dev/claude-proxmox-controller) - Desktop app for Windows and Linux with a built-in MCP server: Claude manages guests, backups, consoles and files through per-host permission switches and approval windows.
 
 ---
 
