@@ -363,6 +363,7 @@
 - [Migrate to Proxmox VE](https://pve.proxmox.com/wiki/Migrate_to_Proxmox_VE) - Official wiki page on migrating VMs from other hypervisors, with the ESXi import wizard.
 - [proxmove](https://github.com/ossobv/proxmove) - Migrate VMs between different Proxmox VE clusters with minimal downtime.
 - [machine-to-proxmox-lxc-ct-converter](https://github.com/my5t3ry/machine-to-proxmox-lxc-ct-converter) - Convert any GNU/Linux machine into a Proxmox LXC container.
+- [Move from VMware to Proxmox](https://ditchly.co/migrate/vmware-to-proxmox) - Step-by-step guide to import VMs from ESXi 6.5 to 8.0, with notes on vSAN, encrypted disks and Windows boot disks. Written by the Ditchly team.
 
 ---
 
