@@ -167,6 +167,7 @@
 - [pbs-exporter](https://github.com/natrontech/pbs-exporter) - Prometheus exporter for Proxmox Backup Server.
 - [PVE-UPS](https://github.com/ffind-dev/pve-ups) - UPS shutdown appliance for Proxmox VE with a web wizard, an alternative to NUT.
 - [XorMon](https://xormon.com/server/monitoring/Proxmox/Proxmox-monitoring.php) - Performance monitoring for Proxmox VE alongside servers, storage, databases and cloud.
+- [SMSTunnel](https://smstunnel.io/integrations/proxmox/) - Text alerts for failed PVE and PBS backups from your own Android phone, through a hosted service.
 
 ---
 
