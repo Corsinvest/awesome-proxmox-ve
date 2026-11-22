@@ -134,6 +134,7 @@
 - [Proxmox VE VPS For WHMCS](https://www.modulesgarden.com/products/whmcs/proxmox-ve-vps)
 - [SolusVM](https://solusvm.com/)
 - [Virtualizor](https://www.virtualizor.com/) [[Docs](https://www.virtualizor.com/docs/)]
+- [NodeRings](https://noderings.com) - SaaS control plane and VPS marketplace for providers running Proxmox VE (also VirtFusion and SolusVM 2).
 
 ---
 
