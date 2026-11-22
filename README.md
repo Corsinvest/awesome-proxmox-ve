@@ -455,6 +455,7 @@
 - [IdleWatt - Homelab Mini-PC Idle-Power & Passthrough Finder](https://idlewatt.vercel.app)
 - [vhr-bench](https://github.com/vpshostreview/vhr-vps-benchmark) - One-minute benchmark for a Linux VM or container: sysbench CPU and memory plus fio 4k random IOPS, for comparing guests and storage backends.
 - [Mini PC Idle Power Table](https://sheley.org/mini-pc-idle-power/) - Measured idle and load watts for common Proxmox mini PCs, each linked to its source.
+- [Starry Hope Mini PC Comparison Chart](https://www.starryhope.com/minipcs/minipc-comparison-chart/) - Sortable chart of about 390 mini PCs with CPU, PassMark CPU Mark, memory, storage, and ports.
 
 ---
 
